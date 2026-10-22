@@ -1,0 +1,91 @@
+{
+  "frozen_at": "2026-10-22T18:52:12.768Z",
+  "source_commit": "4b27ea40a889016debcda83577083750c245aae6",
+  "reference_server": "caf4bfc7c9da343e631e27c7ac1380e4aca4f491",
+  "digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "seeds": {
+    "record": 20261021,
+    "faults": 7,
+    "tasks": 1021,
+    "run_order": 20261022
+  },
+  "tasks": {
+    "count": 50,
+    "sha256": "37d39f0c47bebb15f1dbd87653dd774378992b4098ca1b18d345378a1c878ff7"
+  },
+  "faults": [
+    "client_render",
+    "stale_badge",
+    "return_help",
+    "delivery_at_checkout",
+    "client_filters",
+    "consent_banner"
+  ],
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "wall_ms": 180000,
+    "ceiling_usd": 2,
+    "weaker": [
+      "claude-sonnet-5",
+      "claude-haiku-4-5-20251001"
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5"
+  },
+  "budget_usd": 300,
+  "prompt_sha256": "b38ae5da46d0c658d96dd5819d73ed85194cc8b2a2b9b8c6add5f4e9896221b9",
+  "submit_answer_sha256": "31b4ec9c7e93c0878829851fb4f68742e08c1124873d5e69463d87bb00043a4b",
+  "tools": {
+    "fetch": "2026.10.19",
+    "fetch_max_chars": 5000,
+    "playwright_mcp": "0.0.83",
+    "cap_mcp": "0.1.4",
+    "cap_client": "0.1.4",
+    "user_agent": "CAP-Bench/1.0 (automated shopping agent; +https://conciergeprotocol.org)"
+  },
+  "files": {
+    "FREEZE.md": "a28f293f50e605a910be20bd8a873b9c0a68ee0f11a4c895ce23965c8710ac17",
+    "bun.lock": "05ddf4374f33069a39c52ab93f3f3a55e9696a7e8a8ff4910c01c2af475f036e",
+    "concierge/answer.mjs": "5a572977df6cb8b544c5b0ceff2fb8088a0b57a2e28cb0797f5bdb4cdad9f54b",
+    "concierge/check.mjs": "7eff82c6024c20eb187ce420350af4db6c206ba1c35404e2b22a28a7db1f5959",
+    "concierge/server.mjs": "67248ba59074ea35b70e005b04310026ac7f44b4093b2e8728d8a6c96f183d37",
+    "concierge/smoke.mjs": "9865ba0512438a806e64a6477e73f6aab20dd798419e54ec6b418a483574020c",
+    "concierge/tools.mjs": "82da4704be43787cbf78fdb9a5d4a97c2d75d91aaea516bc5dca0266f44cda74",
+    "fixture/build.mjs": "3d008e4ceca40878126013be26dbdf5ac2a0da5f0d7f1a32f7191b6d61b86b5d",
+    "fixture/catalog.mjs": "8db7b3a84d91ab8e5ef227e84eb70015d4ea940f562384bff6d2eaebccbe8023",
+    "fixture/faults.mjs": "e68e0990cbb8402bbc821a1350ba5224bc43a56b775a841f9f564d5232bdff4d",
+    "fixture/vocab.mjs": "9352c12a9c78159192b4b90afe9a570b4e37ce226f447eafe879d9d6275a32c8",
+    "harness/cost.mjs": "c4f112853e3f208f1cda088f30b4306261d568627b1f5636dc0c84253a8d1fde",
+    "harness/freeze.mjs": "2f3daf12a4c526a52a64f04cae6cc850f76fd1fcf266c59ebcc79bd9401181d8",
+    "harness/host.mjs": "fea4bd5dfabb450bbef59f246b9c2d94b38ff4906e441e97777f64ad5ea72b69",
+    "harness/main.mjs": "29b65fdfb9934e7b806d10d4a2b93447a63789472f53a36e68394f72b92530e6",
+    "harness/mcp.mjs": "76cd4dddd3fb29679872cc2df4619bab3ecb9d56b379e5154845239b4ed2e0d3",
+    "harness/pace.mjs": "ac98359b2654a085c297cc139193dad1a0de92aa6adbf67fc7a38ee3027a170d",
+    "harness/pilot.mjs": "72f036e44aeecf9e1b00f69c25cc7a6bd4aa1190ad653bf948bf829a7e0c726c",
+    "harness/probe.mjs": "c931473de840134a62524e2c978c91207c78074d539493d31f502dba17baf3d9",
+    "harness/prompt.mjs": "99bcb9e5d97142fd19a1c7c311b4eef54d466fb5e84467d337485dc44fd36432",
+    "harness/prove.mjs": "ae43f9aae386f127effe1a4dec564a810869537b242a2c3f2398e7e44f110e98",
+    "harness/run.mjs": "14cff351f4dae986eaf8bfb0f96f766a0d379234362ae6366ddc700052092321",
+    "harness/scale-tasks.mjs": "9dbc550b4bc0b7ab3f4402098f9df359c995edaea04b9108c97eabe3ac679e09",
+    "lib/pricing.mjs": "805dd04d6b4ed927d2dab5f4571fa5fca46851fda28caa1a78d896e298d24166",
+    "lib/rng.mjs": "273efd7a191f44b02975225e63a5ae2fefae10ce66d7983a970a069f9929d747",
+    "package.json": "c024f2fc6a7a9340841cefd144a1447b9dcf7c16b7d7ba99d950b399961aad72",
+    "scorer/check.mjs": "2197dc83bb4f2a79e4efbf1966672041f62c45320a55ae6799521d84f4e71f7e",
+    "scorer/gold.mjs": "c40c173b62ae66ae9855c7646d68091fbc5940b7b877e6d5cb2e039a74d43099",
+    "scorer/score.mjs": "9a311219e99e6fb7ed903c98260c9dcb6952b9973a269589ba1fd7e18b2b64d5",
+    "storefront/app.js": "85acaeb897b2ecb669d701e1ddfee87226de8bf0121cc07256d7f47a7e6bb879",
+    "storefront/check.mjs": "5bd4cdb62c8ed081221812d9a2c9758eab80fd3e67d9d1ef5a5341e837ad31f5",
+    "storefront/data.mjs": "f8f3918a8cf0fe40d005574655952e44d21d9c41fabbaa378aedc3f15f8e7759",
+    "storefront/html.mjs": "e9927d367b1c619af147af8651bafd21b78833348fdde1b10d0feffc76d00d50",
+    "storefront/server.mjs": "638061e1124ab295124115b1759e0246b9f1abe175384bf3147db8fb95a59e38",
+    "tasks/REVIEW.md": "0dc7ba9b24e9d07d00342502dc5b7439ab60cdcbe8a86bd0e359e4bdf367c9c0",
+    "tasks/answer.mjs": "c9cbbb67b2526b4d294c1a24a9ee4e27833f23e9ad066da63303962523b17462",
+    "tasks/build.mjs": "c80b7b5933131f4486fa16aad99bef8d9261c6a55446b8d33c92d67d132aad6b",
+    "tasks/queries.mjs": "5a6f8b13acb49a129642fa4b4615a1c03cb5784f3590e71385bc2c0acc1225f4",
+    "tasks/review.mjs": "b89fd3398a98a89c41ae1642904ee48d2d684639611f8039921ef07e6b95be61",
+    "tasks/tasks.json": "37d39f0c47bebb15f1dbd87653dd774378992b4098ca1b18d345378a1c878ff7",
+    "tasks/validate.mjs": "5a3ae846ac4af73d8e242a2f06e555c17e492f96280ff8a2d372b0e3722f6d65"
+  }
+}
