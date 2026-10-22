@@ -1,0 +1,1978 @@
+{
+  "seed": 1021,
+  "record_seed": 20261021,
+  "fault_seed": 7,
+  "tasks": [
+    {
+      "task_id": "FP-01",
+      "category": "fact_on_page",
+      "prompt": "What is the upper of the Men's Beacon Lift made of?",
+      "impossible": false,
+      "faults": [],
+      "subject": {
+        "style_id": "TRN-009"
+      },
+      "queries": {
+        "values": {
+          "material": {
+            "fn": "styleFact",
+            "args": {
+              "style_id": "TRN-009",
+              "field": "specs.upper"
+            }
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "material": "engineered mesh"
+        }
+      }
+    },
+    {
+      "task_id": "FP-02",
+      "category": "fact_on_page",
+      "prompt": "What is the upper of the Men's Flux Road made of?",
+      "impossible": false,
+      "faults": [],
+      "subject": {
+        "style_id": "RUN-011"
+      },
+      "queries": {
+        "values": {
+          "material": {
+            "fn": "styleFact",
+            "args": {
+              "style_id": "RUN-011",
+              "field": "specs.upper"
+            }
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "material": "engineered mesh"
+        }
+      }
+    },
+    {
+      "task_id": "FP-03",
+      "category": "fact_on_page",
+      "prompt": "What fabric is the Women's Graphic Pullover Hoodie made from?",
+      "impossible": false,
+      "faults": [],
+      "subject": {
+        "style_id": "HOD-032"
+      },
+      "queries": {
+        "values": {
+          "material": {
+            "fn": "styleFact",
+            "args": {
+              "style_id": "HOD-032",
+              "field": "specs.fabric"
+            }
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "material": "80% cotton, 20% polyester"
+        }
+      }
+    },
+    {
+      "task_id": "FP-04",
+      "category": "fact_on_page",
+      "prompt": "What is the heel-to-toe drop of the Women's Tide Trail 5, in millimeters?",
+      "impossible": false,
+      "faults": [],
+      "subject": {
+        "style_id": "TRL-010"
+      },
+      "queries": {
+        "values": {
+          "heel_drop_mm": {
+            "fn": "styleFact",
+            "args": {
+              "style_id": "TRL-010",
+              "field": "specs.heel_drop_mm"
+            }
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "heel_drop_mm": 8
+        }
+      }
+    },
+    {
+      "task_id": "FP-05",
+      "category": "fact_on_page",
+      "prompt": "What is the heel-to-toe drop of the Men's Swift Road, in millimeters?",
+      "impossible": false,
+      "faults": [],
+      "subject": {
+        "style_id": "RUN-021"
+      },
+      "queries": {
+        "values": {
+          "heel_drop_mm": {
+            "fn": "styleFact",
+            "args": {
+              "style_id": "RUN-021",
+              "field": "specs.heel_drop_mm"
+            }
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "heel_drop_mm": 0
+        }
+      }
+    },
+    {
+      "task_id": "FP-06",
+      "category": "fact_on_page",
+      "prompt": "What time does the Venice store close on Sunday?",
+      "impossible": false,
+      "faults": [],
+      "subject": {
+        "store": "venice"
+      },
+      "queries": {
+        "values": {
+          "closing_time": {
+            "fn": "storeHours",
+            "args": {
+              "store": "venice",
+              "day": "sun",
+              "part": "close"
+            }
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "closing_time": "19:00"
+        }
+      }
+    },
+    {
+      "task_id": "FP-07",
+      "category": "fact_on_page",
+      "prompt": "What time does the Pasadena store close on Saturday?",
+      "impossible": false,
+      "faults": [],
+      "subject": {
+        "store": "pasadena"
+      },
+      "queries": {
+        "values": {
+          "closing_time": {
+            "fn": "storeHours",
+            "args": {
+              "store": "pasadena",
+              "day": "sat",
+              "part": "close"
+            }
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "closing_time": "20:00"
+        }
+      }
+    },
+    {
+      "task_id": "FP-08",
+      "category": "fact_on_page",
+      "prompt": "Which colors does the Men's Vista Runner 5 come in?",
+      "impossible": false,
+      "faults": [],
+      "subject": {
+        "style_id": "RUN-025"
+      },
+      "queries": {
+        "values": {
+          "colors": {
+            "fn": "styleFact",
+            "args": {
+              "style_id": "RUN-025",
+              "field": "colors"
+            }
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "colors": [
+            "white",
+            "black",
+            "gray"
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "FP-09",
+      "category": "fact_on_page",
+      "prompt": "What is the heel-to-toe drop of the Men's Orbit Glide 6, in millimeters?",
+      "impossible": true,
+      "faults": [],
+      "subject": {
+        "absent_title": "Men's Orbit Glide 6"
+      },
+      "queries": {},
+      "expected": {
+        "status": "not_available"
+      }
+    },
+    {
+      "task_id": "FP-10",
+      "category": "fact_on_page",
+      "prompt": "How much is the Women's Breeze Short in red?",
+      "impossible": true,
+      "faults": [],
+      "subject": {
+        "style_id": "SHO-022",
+        "color": "red"
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "style_id": "SHO-022",
+              "color": "red"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "not_available",
+        "items": [
+          {
+            "sku_in": []
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "MC-01",
+      "category": "multi_constraint",
+      "prompt": "Find men's black trail running shoes in size 8, $160 or less, in stock online.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "client_render",
+        "stale_badge"
+      ],
+      "subject": {
+        "filter": {
+          "category": "trail-running",
+          "color": "black",
+          "size": "8",
+          "max_price": 160,
+          "in_stock_online": true,
+          "gender": "men"
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "trail-running",
+              "color": "black",
+              "size": "8",
+              "max_price": 160,
+              "in_stock_online": true,
+              "gender": "men"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "TRL-001-BLK-080",
+              "TRL-005-BLK-080"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "MC-02",
+      "category": "multi_constraint",
+      "prompt": "Find women's pink road running shoes in size 10.5, $160 or less, in stock online.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "client_render",
+        "stale_badge"
+      ],
+      "subject": {
+        "filter": {
+          "category": "road-running",
+          "color": "pink",
+          "size": "10.5",
+          "max_price": 160,
+          "in_stock_online": true,
+          "gender": "women"
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "road-running",
+              "color": "pink",
+              "size": "10.5",
+              "max_price": 160,
+              "in_stock_online": true,
+              "gender": "women"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "RUN-018-PNK-105",
+              "RUN-028-PNK-105",
+              "RUN-032-PNK-105"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "MC-03",
+      "category": "multi_constraint",
+      "prompt": "Find men's green road running shoes in size 11, $150 or less, in stock online.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "client_render"
+      ],
+      "subject": {
+        "filter": {
+          "category": "road-running",
+          "color": "green",
+          "size": "11",
+          "max_price": 150,
+          "in_stock_online": true,
+          "gender": "men"
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "road-running",
+              "color": "green",
+              "size": "11",
+              "max_price": 150,
+              "in_stock_online": true,
+              "gender": "men"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "RUN-031-GRN-110"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "MC-04",
+      "category": "multi_constraint",
+      "prompt": "Find gray joggers in size XL, $70 or less, in stock online.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "client_render",
+        "stale_badge"
+      ],
+      "subject": {
+        "filter": {
+          "category": "joggers",
+          "color": "gray",
+          "size": "XL",
+          "max_price": 70,
+          "in_stock_online": true
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "joggers",
+              "color": "gray",
+              "size": "XL",
+              "max_price": 70,
+              "in_stock_online": true
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "JOG-006-GRY-XL",
+              "JOG-017-GRY-XL",
+              "JOG-020-GRY-XL",
+              "JOG-028-GRY-XL",
+              "JOG-035-GRY-XL",
+              "JOG-039-GRY-XL"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "MC-05",
+      "category": "multi_constraint",
+      "prompt": "Find gray leggings in size M, $60 or less, in stock online.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "client_render"
+      ],
+      "subject": {
+        "filter": {
+          "category": "leggings",
+          "color": "gray",
+          "size": "M",
+          "max_price": 60,
+          "in_stock_online": true
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "leggings",
+              "color": "gray",
+              "size": "M",
+              "max_price": 60,
+              "in_stock_online": true
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "LEG-003-GRY-M",
+              "LEG-011-GRY-M",
+              "LEG-017-GRY-M"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "MC-06",
+      "category": "multi_constraint",
+      "prompt": "I need two things, both in stock online: men's blue trail running shoes in size 10.5, $120 or less, and navy joggers in size S, $90 or less.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "client_render",
+        "stale_badge"
+      ],
+      "subject": {
+        "filters": [
+          {
+            "category": "trail-running",
+            "color": "blue",
+            "size": "10.5",
+            "max_price": 120,
+            "in_stock_online": true,
+            "gender": "men"
+          },
+          {
+            "category": "joggers",
+            "color": "navy",
+            "size": "S",
+            "max_price": 90,
+            "in_stock_online": true
+          }
+        ]
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "trail-running",
+              "color": "blue",
+              "size": "10.5",
+              "max_price": 120,
+              "in_stock_online": true,
+              "gender": "men"
+            }
+          },
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "joggers",
+              "color": "navy",
+              "size": "S",
+              "max_price": 90,
+              "in_stock_online": true
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "TRL-023-BLU-105",
+              "TRL-025-BLU-105"
+            ]
+          },
+          {
+            "sku_in": [
+              "JOG-005-NVY-S",
+              "JOG-008-NVY-S",
+              "JOG-012-NVY-S",
+              "JOG-023-NVY-S",
+              "JOG-024-NVY-S",
+              "JOG-026-NVY-S"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "MC-07",
+      "category": "multi_constraint",
+      "prompt": "I need two things, both in stock online: women's gray training shoes in size 8, $150 or less, and olive shorts in size S, $30 or less.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "client_render",
+        "stale_badge"
+      ],
+      "subject": {
+        "filters": [
+          {
+            "category": "training",
+            "color": "gray",
+            "size": "8",
+            "max_price": 150,
+            "in_stock_online": true,
+            "gender": "women"
+          },
+          {
+            "category": "shorts",
+            "color": "olive",
+            "size": "S",
+            "max_price": 30,
+            "in_stock_online": true
+          }
+        ]
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "training",
+              "color": "gray",
+              "size": "8",
+              "max_price": 150,
+              "in_stock_online": true,
+              "gender": "women"
+            }
+          },
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "shorts",
+              "color": "olive",
+              "size": "S",
+              "max_price": 30,
+              "in_stock_online": true
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "TRN-004-GRY-080",
+              "TRN-012-GRY-080",
+              "TRN-014-GRY-080",
+              "TRN-016-GRY-080",
+              "TRN-020-GRY-080"
+            ]
+          },
+          {
+            "sku_in": [
+              "SHO-017-OLV-S"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "MC-08",
+      "category": "multi_constraint",
+      "prompt": "I need two things, both in stock online: women's red road running shoes in size 8, $130 or less, and a charcoal jacket in size L, $230 or less.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "client_render"
+      ],
+      "subject": {
+        "filters": [
+          {
+            "category": "road-running",
+            "color": "red",
+            "size": "8",
+            "max_price": 130,
+            "in_stock_online": true,
+            "gender": "women"
+          },
+          {
+            "category": "jackets",
+            "color": "charcoal",
+            "size": "L",
+            "max_price": 230,
+            "in_stock_online": true
+          }
+        ]
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "road-running",
+              "color": "red",
+              "size": "8",
+              "max_price": 130,
+              "in_stock_online": true,
+              "gender": "women"
+            }
+          },
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "jackets",
+              "color": "charcoal",
+              "size": "L",
+              "max_price": 230,
+              "in_stock_online": true
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "RUN-004-RED-080",
+              "RUN-008-RED-080",
+              "RUN-024-RED-080"
+            ]
+          },
+          {
+            "sku_in": [
+              "JKT-005-CHR-L",
+              "JKT-008-CHR-L",
+              "JKT-017-CHR-L"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "MC-09",
+      "category": "multi_constraint",
+      "prompt": "Find a charcoal jacket in size M, $210 or less, with no logos or graphics, in stock online.",
+      "impossible": true,
+      "faults": [
+        "client_filters"
+      ],
+      "subject": {
+        "filter": {
+          "category": "jackets",
+          "color": "charcoal",
+          "size": "M",
+          "max_price": 210,
+          "in_stock_online": true,
+          "exclude_tags": [
+            "logo",
+            "graphic"
+          ]
+        },
+        "near_misses": 2
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "jackets",
+              "color": "charcoal",
+              "size": "M",
+              "max_price": 210,
+              "in_stock_online": true,
+              "exclude_tags": [
+                "logo",
+                "graphic"
+              ]
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "not_available",
+        "items": [
+          {
+            "sku_in": []
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "MC-10",
+      "category": "multi_constraint",
+      "prompt": "Find women's orange road running shoes in size 7.5, $120 or less, in stock online.",
+      "impossible": true,
+      "faults": [
+        "client_filters"
+      ],
+      "subject": {
+        "filter": {
+          "category": "road-running",
+          "color": "orange",
+          "size": "7.5",
+          "max_price": 120,
+          "in_stock_online": true,
+          "gender": "women"
+        },
+        "near_misses": 1
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "road-running",
+              "color": "orange",
+              "size": "7.5",
+              "max_price": 120,
+              "in_stock_online": true,
+              "gender": "women"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "not_available",
+        "items": [
+          {
+            "sku_in": []
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "PR-01",
+      "category": "page_vs_record",
+      "prompt": "I ran in my Women's Vista Road twice and they do not feel right. They were delivered 10 days ago. Can I return them?",
+      "impossible": false,
+      "faults": [
+        "return_help"
+      ],
+      "subject": {
+        "style_id": "RUN-030"
+      },
+      "queries": {
+        "values": {
+          "returnable": {
+            "fn": "returnable",
+            "args": {
+              "style_id": "RUN-030",
+              "condition": "worn",
+              "days": 10
+            },
+            "pick": "returnable"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "returnable": false
+        }
+      }
+    },
+    {
+      "task_id": "PR-02",
+      "category": "page_vs_record",
+      "prompt": "I have an unworn Women's Harbor Hoodie with the tags still on. It was delivered 40 days ago. Can I still return it?",
+      "impossible": false,
+      "faults": [
+        "return_help"
+      ],
+      "subject": {
+        "style_id": "HOD-033"
+      },
+      "queries": {
+        "values": {
+          "returnable": {
+            "fn": "returnable",
+            "args": {
+              "style_id": "HOD-033",
+              "condition": "unworn",
+              "days": 40
+            },
+            "pick": "returnable"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "returnable": false
+        }
+      }
+    },
+    {
+      "task_id": "PR-03",
+      "category": "page_vs_record",
+      "prompt": "I bought the Men's Ridge Fleece Hoodie on sale. It is unworn with tags, delivered 5 days ago. Can I return it?",
+      "impossible": false,
+      "faults": [
+        "return_help"
+      ],
+      "subject": {
+        "style_id": "HOD-048"
+      },
+      "queries": {
+        "values": {
+          "returnable": {
+            "fn": "returnable",
+            "args": {
+              "style_id": "HOD-048",
+              "condition": "unworn",
+              "days": 5
+            },
+            "pick": "returnable"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "returnable": false
+        }
+      }
+    },
+    {
+      "task_id": "PR-04",
+      "category": "page_vs_record",
+      "prompt": "How many days after delivery do I have to return an unworn Men's Heavyweight Long Sleeve Tee?",
+      "impossible": false,
+      "faults": [
+        "return_help"
+      ],
+      "subject": {
+        "style_id": "TEE-014"
+      },
+      "queries": {
+        "values": {
+          "return_window_days": {
+            "fn": "returnable",
+            "args": {
+              "style_id": "TEE-014",
+              "condition": "unworn",
+              "days": 0
+            },
+            "pick": "return_window_days"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "return_window_days": 30
+        }
+      }
+    },
+    {
+      "task_id": "PR-05",
+      "category": "page_vs_record",
+      "prompt": "I opened and tried on the Graphic Run Sock I ordered. It was delivered 12 days ago. Can I return it?",
+      "impossible": false,
+      "faults": [
+        "return_help"
+      ],
+      "subject": {
+        "style_id": "SOC-012"
+      },
+      "queries": {
+        "values": {
+          "returnable": {
+            "fn": "returnable",
+            "args": {
+              "style_id": "SOC-012",
+              "condition": "opened",
+              "days": 12
+            },
+            "pick": "returnable"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "returnable": false
+        }
+      }
+    },
+    {
+      "task_id": "PR-06",
+      "category": "page_vs_record",
+      "prompt": "My Men's Thermal Windbreaker is unworn with the tags on. It was delivered 38 days ago. Can I exchange it for a different size for free?",
+      "impossible": false,
+      "faults": [
+        "return_help"
+      ],
+      "subject": {
+        "style_id": "JKT-021"
+      },
+      "queries": {
+        "values": {
+          "exchange_free": {
+            "fn": "exchangeFree",
+            "args": {
+              "style_id": "JKT-021",
+              "days": 38
+            }
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "exchange_free": false
+        }
+      }
+    },
+    {
+      "task_id": "PR-07",
+      "category": "page_vs_record",
+      "prompt": "Can I order the Women's Tempo Run Short in sand, size XS, online right now?",
+      "impossible": false,
+      "faults": [
+        "client_render",
+        "stale_badge"
+      ],
+      "subject": {
+        "sku": "SHO-001-SND-XS"
+      },
+      "queries": {
+        "values": {
+          "in_stock_online": {
+            "fn": "findSkus",
+            "args": {
+              "style_id": "SHO-001",
+              "color": "sand",
+              "size": "XS",
+              "in_stock_online": true
+            },
+            "as": "nonempty"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "in_stock_online": false
+        }
+      }
+    },
+    {
+      "task_id": "PR-08",
+      "category": "page_vs_record",
+      "prompt": "Can I order the Men's Orbit Trek in white, size 7, online right now?",
+      "impossible": false,
+      "faults": [
+        "stale_badge"
+      ],
+      "subject": {
+        "sku": "TRL-015-WHT-070"
+      },
+      "queries": {
+        "values": {
+          "in_stock_online": {
+            "fn": "findSkus",
+            "args": {
+              "style_id": "TRL-015",
+              "color": "white",
+              "size": "7",
+              "in_stock_online": true
+            },
+            "as": "nonempty"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "in_stock_online": true
+        }
+      }
+    },
+    {
+      "task_id": "PR-09",
+      "category": "page_vs_record",
+      "prompt": "Find the Tempo Short in green, in any size that is in stock online.",
+      "impossible": true,
+      "faults": [
+        "client_render",
+        "stale_badge"
+      ],
+      "subject": {
+        "style_id": "SHO-026",
+        "color": "green"
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "style_id": "SHO-026",
+              "color": "green",
+              "in_stock_online": true
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "not_available",
+        "items": [
+          {
+            "sku_in": []
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "PR-10",
+      "category": "page_vs_record",
+      "prompt": "Find the Men's Ridge Puffer in charcoal, in any size that is in stock online.",
+      "impossible": true,
+      "faults": [
+        "client_render",
+        "stale_badge"
+      ],
+      "subject": {
+        "style_id": "JKT-033",
+        "color": "charcoal"
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "style_id": "JKT-033",
+              "color": "charcoal",
+              "in_stock_online": true
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "not_available",
+        "items": [
+          {
+            "sku_in": []
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "LD-01",
+      "category": "local_and_delivery",
+      "prompt": "Is the Men's Ridge Glide 4 in white, size 14, in stock at the Venice store?",
+      "impossible": false,
+      "faults": [],
+      "subject": {
+        "sku": "RUN-035-WHT-140",
+        "store": "venice"
+      },
+      "queries": {
+        "values": {
+          "in_stock_at_store": {
+            "fn": "findSkus",
+            "args": {
+              "style_id": "RUN-035",
+              "color": "white",
+              "size": "14",
+              "store": "venice"
+            },
+            "as": "nonempty"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "in_stock_at_store": true
+        }
+      }
+    },
+    {
+      "task_id": "LD-02",
+      "category": "local_and_delivery",
+      "prompt": "Is the Tempo Pocket Tee in sand, size XXL, in stock at the Pasadena store?",
+      "impossible": false,
+      "faults": [],
+      "subject": {
+        "sku": "TEE-059-SND-XXL",
+        "store": "pasadena"
+      },
+      "queries": {
+        "values": {
+          "in_stock_at_store": {
+            "fn": "findSkus",
+            "args": {
+              "style_id": "TEE-059",
+              "color": "sand",
+              "size": "XXL",
+              "store": "pasadena"
+            },
+            "as": "nonempty"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "in_stock_at_store": true
+        }
+      }
+    },
+    {
+      "task_id": "LD-03",
+      "category": "local_and_delivery",
+      "prompt": "Is the Men's Atlas Trainer in purple, size 10, in stock at the Venice store?",
+      "impossible": false,
+      "faults": [],
+      "subject": {
+        "sku": "TRN-003-PRP-100",
+        "store": "venice"
+      },
+      "queries": {
+        "values": {
+          "in_stock_at_store": {
+            "fn": "findSkus",
+            "args": {
+              "style_id": "TRN-003",
+              "color": "purple",
+              "size": "10",
+              "store": "venice"
+            },
+            "as": "nonempty"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "in_stock_at_store": false
+        }
+      }
+    },
+    {
+      "task_id": "LD-04",
+      "category": "local_and_delivery",
+      "prompt": "What does standard shipping cost for one Women's Graphic Sweatpant to ZIP 90291, and how many days does it take at most?",
+      "impossible": false,
+      "faults": [
+        "delivery_at_checkout"
+      ],
+      "subject": {
+        "style_id": "JOG-036",
+        "zip": "90291",
+        "subtotal": 65
+      },
+      "queries": {
+        "values": {
+          "delivery_cost": {
+            "fn": "delivery",
+            "args": {
+              "zip": "90291",
+              "subtotal": 65,
+              "method": "standard"
+            },
+            "pick": "delivery_cost"
+          },
+          "delivery_days_max": {
+            "fn": "delivery",
+            "args": {
+              "zip": "90291",
+              "subtotal": 65,
+              "method": "standard"
+            },
+            "pick": "delivery_days_max"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "delivery_cost": 5.95,
+          "delivery_days_max": 3
+        }
+      }
+    },
+    {
+      "task_id": "LD-05",
+      "category": "local_and_delivery",
+      "prompt": "What does standard shipping cost for one Women's Club Zip Hoodie to ZIP 10001, and how many days does it take at most?",
+      "impossible": false,
+      "faults": [
+        "delivery_at_checkout"
+      ],
+      "subject": {
+        "style_id": "HOD-009",
+        "zip": "10001",
+        "subtotal": 85
+      },
+      "queries": {
+        "values": {
+          "delivery_cost": {
+            "fn": "delivery",
+            "args": {
+              "zip": "10001",
+              "subtotal": 85,
+              "method": "standard"
+            },
+            "pick": "delivery_cost"
+          },
+          "delivery_days_max": {
+            "fn": "delivery",
+            "args": {
+              "zip": "10001",
+              "subtotal": 85,
+              "method": "standard"
+            },
+            "pick": "delivery_days_max"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "delivery_cost": 9.95,
+          "delivery_days_max": 7
+        }
+      }
+    },
+    {
+      "task_id": "LD-06",
+      "category": "local_and_delivery",
+      "prompt": "What does standard shipping cost for one Men's Track Windbreaker to ZIP 85004, and how many days does it take at most?",
+      "impossible": false,
+      "faults": [
+        "delivery_at_checkout",
+        "client_render"
+      ],
+      "subject": {
+        "style_id": "JKT-028",
+        "zip": "85004",
+        "subtotal": 139
+      },
+      "queries": {
+        "values": {
+          "delivery_cost": {
+            "fn": "delivery",
+            "args": {
+              "zip": "85004",
+              "subtotal": 139,
+              "method": "standard"
+            },
+            "pick": "delivery_cost"
+          },
+          "delivery_days_max": {
+            "fn": "delivery",
+            "args": {
+              "zip": "85004",
+              "subtotal": 139,
+              "method": "standard"
+            },
+            "pick": "delivery_days_max"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "delivery_cost": 0,
+          "delivery_days_max": 5
+        }
+      }
+    },
+    {
+      "task_id": "LD-07",
+      "category": "local_and_delivery",
+      "prompt": "Which of your stores have the Women's Tempo Racer in red, size 5.5, in stock? And if I have it shipped instead, what does express shipping to ZIP 60614 cost?",
+      "impossible": false,
+      "faults": [
+        "delivery_at_checkout"
+      ],
+      "subject": {
+        "sku": "RUN-038-RED-055",
+        "zip": "60614"
+      },
+      "queries": {
+        "values": {
+          "stores_in_stock": {
+            "fn": "storesWithStock",
+            "args": {
+              "sku": "RUN-038-RED-055"
+            }
+          },
+          "delivery_cost": {
+            "fn": "delivery",
+            "args": {
+              "zip": "60614",
+              "subtotal": 74,
+              "method": "express"
+            },
+            "pick": "delivery_cost"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "stores_in_stock": [
+            "downtown",
+            "venice"
+          ],
+          "delivery_cost": 24.95
+        }
+      }
+    },
+    {
+      "task_id": "LD-08",
+      "category": "local_and_delivery",
+      "prompt": "Which of your stores have the Women's Ridge Glide 4 in white, size 10.5, in stock? And if I have it shipped instead, what does express shipping to ZIP 85004 cost?",
+      "impossible": false,
+      "faults": [
+        "delivery_at_checkout"
+      ],
+      "subject": {
+        "sku": "RUN-036-WHT-105",
+        "zip": "85004"
+      },
+      "queries": {
+        "values": {
+          "stores_in_stock": {
+            "fn": "storesWithStock",
+            "args": {
+              "sku": "RUN-036-WHT-105"
+            }
+          },
+          "delivery_cost": {
+            "fn": "delivery",
+            "args": {
+              "zip": "85004",
+              "subtotal": 160,
+              "method": "express"
+            },
+            "pick": "delivery_cost"
+          }
+        }
+      },
+      "expected": {
+        "status": "found",
+        "values": {
+          "stores_in_stock": [
+            "venice"
+          ],
+          "delivery_cost": 19.95
+        }
+      }
+    },
+    {
+      "task_id": "LD-09",
+      "category": "local_and_delivery",
+      "prompt": "Find a store that has the Women's Tech Puffer in orange, size M, in stock today.",
+      "impossible": true,
+      "faults": [],
+      "subject": {
+        "sku": "JKT-027-ORG-M"
+      },
+      "queries": {
+        "values": {
+          "stores_in_stock": {
+            "fn": "storesWithStock",
+            "args": {
+              "sku": "JKT-027-ORG-M"
+            }
+          }
+        }
+      },
+      "expected": {
+        "status": "not_available",
+        "values": {
+          "stores_in_stock": []
+        }
+      }
+    },
+    {
+      "task_id": "LD-10",
+      "category": "local_and_delivery",
+      "prompt": "Find a store that has the Men's Ridge Pocket Tee in orange, size S, in stock today.",
+      "impossible": true,
+      "faults": [],
+      "subject": {
+        "sku": "TEE-053-ORG-S"
+      },
+      "queries": {
+        "values": {
+          "stores_in_stock": {
+            "fn": "storesWithStock",
+            "args": {
+              "sku": "TEE-053-ORG-S"
+            }
+          }
+        }
+      },
+      "expected": {
+        "status": "not_available",
+        "values": {
+          "stores_in_stock": []
+        }
+      }
+    },
+    {
+      "task_id": "CQ-01",
+      "category": "catalog_query",
+      "prompt": "List every pair of men's black road running shoes in size 10.5, $150 or less that is in stock online. Give the price and a link for each.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "client_render"
+      ],
+      "subject": {
+        "filter": {
+          "category": "road-running",
+          "size": "10.5",
+          "color": "black",
+          "max_price": 150,
+          "in_stock_online": true,
+          "gender": "men"
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "road-running",
+              "size": "10.5",
+              "color": "black",
+              "max_price": 150,
+              "in_stock_online": true,
+              "gender": "men"
+            },
+            "each": true
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "RUN-015-BLK-105"
+            ]
+          },
+          {
+            "sku_in": [
+              "RUN-019-BLK-105"
+            ]
+          },
+          {
+            "sku_in": [
+              "RUN-023-BLK-105"
+            ]
+          },
+          {
+            "sku_in": [
+              "RUN-025-BLK-105"
+            ]
+          },
+          {
+            "sku_in": [
+              "RUN-037-BLK-105"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "CQ-02",
+      "category": "catalog_query",
+      "prompt": "List every pair of sand joggers in size XL, $120 or less that is in stock online. Give the price and a link for each.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "client_render",
+        "stale_badge"
+      ],
+      "subject": {
+        "filter": {
+          "category": "joggers",
+          "size": "XL",
+          "color": "sand",
+          "max_price": 120,
+          "in_stock_online": true
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "joggers",
+              "size": "XL",
+              "color": "sand",
+              "max_price": 120,
+              "in_stock_online": true
+            },
+            "each": true
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "JOG-011-SND-XL"
+            ]
+          },
+          {
+            "sku_in": [
+              "JOG-015-SND-XL"
+            ]
+          },
+          {
+            "sku_in": [
+              "JOG-033-SND-XL"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "CQ-03",
+      "category": "catalog_query",
+      "prompt": "List every pair of women's gray trail running shoes in size 8.5, $140 or less that is in stock online. Give the price and a link for each.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "stale_badge"
+      ],
+      "subject": {
+        "filter": {
+          "category": "trail-running",
+          "size": "8.5",
+          "color": "gray",
+          "max_price": 140,
+          "in_stock_online": true,
+          "gender": "women"
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "trail-running",
+              "size": "8.5",
+              "color": "gray",
+              "max_price": 140,
+              "in_stock_online": true,
+              "gender": "women"
+            },
+            "each": true
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "TRL-022-GRY-085"
+            ]
+          },
+          {
+            "sku_in": [
+              "TRL-024-GRY-085"
+            ]
+          },
+          {
+            "sku_in": [
+              "TRL-026-GRY-085"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "CQ-04",
+      "category": "catalog_query",
+      "prompt": "List every purple jacket in size L, $250 or less that is in stock online. Give the price and a link for each.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "client_render",
+        "stale_badge"
+      ],
+      "subject": {
+        "filter": {
+          "category": "jackets",
+          "size": "L",
+          "color": "purple",
+          "max_price": 250,
+          "in_stock_online": true
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "jackets",
+              "size": "L",
+              "color": "purple",
+              "max_price": 250,
+              "in_stock_online": true
+            },
+            "each": true
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "JKT-007-PRP-L"
+            ]
+          },
+          {
+            "sku_in": [
+              "JKT-027-PRP-L"
+            ]
+          },
+          {
+            "sku_in": [
+              "JKT-030-PRP-L"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "CQ-05",
+      "category": "catalog_query",
+      "prompt": "What is the cheapest pair of women's lifestyle sneakers in size 9 that is in stock online? Give its price and a link to that color and size.",
+      "impossible": false,
+      "faults": [
+        "client_filters",
+        "client_render"
+      ],
+      "subject": {
+        "filter": {
+          "category": "lifestyle",
+          "size": "9",
+          "in_stock_online": true,
+          "gender": "women"
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "cheapestSkus",
+            "args": {
+              "category": "lifestyle",
+              "size": "9",
+              "in_stock_online": true,
+              "gender": "women"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "LIF-002-BLK-090"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "CQ-06",
+      "category": "catalog_query",
+      "prompt": "What is the cheapest tee in size S that is in stock online? Give its price and a link to that color and size.",
+      "impossible": false,
+      "faults": [
+        "client_filters"
+      ],
+      "subject": {
+        "filter": {
+          "category": "tees",
+          "size": "S",
+          "in_stock_online": true
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "cheapestSkus",
+            "args": {
+              "category": "tees",
+              "size": "S",
+              "in_stock_online": true
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "TEE-004-GRY-S",
+              "TEE-059-SND-S",
+              "TEE-059-ORG-S"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "CQ-07",
+      "category": "catalog_query",
+      "prompt": "What is the cheapest pair of women's trail running shoes in size 9 that is in stock both online and at the Downtown store? Give its price and a link to that color and size.",
+      "impossible": false,
+      "faults": [
+        "client_filters"
+      ],
+      "subject": {
+        "filter": {
+          "category": "trail-running",
+          "size": "9",
+          "in_stock_online": true,
+          "store": "downtown",
+          "gender": "women"
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "cheapestSkus",
+            "args": {
+              "category": "trail-running",
+              "size": "9",
+              "in_stock_online": true,
+              "store": "downtown",
+              "gender": "women"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "TRL-006-WHT-090"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "CQ-08",
+      "category": "catalog_query",
+      "prompt": "What is the cheapest tee in size XS that is in stock both online and at the Venice store? Give its price and a link to that color and size.",
+      "impossible": false,
+      "faults": [
+        "client_filters"
+      ],
+      "subject": {
+        "filter": {
+          "category": "tees",
+          "size": "XS",
+          "in_stock_online": true,
+          "store": "venice"
+        }
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "cheapestSkus",
+            "args": {
+              "category": "tees",
+              "size": "XS",
+              "in_stock_online": true,
+              "store": "venice"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "found",
+        "items": [
+          {
+            "sku_in": [
+              "TEE-003-PRP-XS"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "CQ-09",
+      "category": "catalog_query",
+      "prompt": "List every pair of women's gray lifestyle sneakers in size 8, $140 or less that is in stock both online and at the Pasadena store. Give the price and a link for each.",
+      "impossible": true,
+      "faults": [
+        "client_filters"
+      ],
+      "subject": {
+        "filter": {
+          "category": "lifestyle",
+          "size": "8",
+          "color": "gray",
+          "in_stock_online": true,
+          "store": "pasadena",
+          "max_price": 140,
+          "gender": "women"
+        },
+        "near_misses": 2
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "findSkus",
+            "args": {
+              "category": "lifestyle",
+              "size": "8",
+              "color": "gray",
+              "in_stock_online": true,
+              "store": "pasadena",
+              "max_price": 140,
+              "gender": "women"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "not_available",
+        "items": [
+          {
+            "sku_in": []
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "CQ-10",
+      "category": "catalog_query",
+      "prompt": "What is the cheapest sand jacket in size L that is in stock both online and at the Venice store? Give its price and a link to that color and size.",
+      "impossible": true,
+      "faults": [
+        "client_filters"
+      ],
+      "subject": {
+        "filter": {
+          "category": "jackets",
+          "size": "L",
+          "color": "sand",
+          "in_stock_online": true,
+          "store": "venice"
+        },
+        "near_misses": 4
+      },
+      "queries": {
+        "items": [
+          {
+            "fn": "cheapestSkus",
+            "args": {
+              "category": "jackets",
+              "size": "L",
+              "color": "sand",
+              "in_stock_online": true,
+              "store": "venice"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "status": "not_available",
+        "items": [
+          {
+            "sku_in": []
+          }
+        ]
+      }
+    }
+  ]
+}

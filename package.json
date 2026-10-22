@@ -1,0 +1,34 @@
+{
+  "name": "cap-bench",
+  "private": true,
+  "type": "module",
+  "description": "When a CAP front door beats reading the website for a visiting agent, and when it does not.",
+  "scripts": {
+    "fixture": "bun fixture/build.mjs",
+    "tasks": "bun tasks/build.mjs",
+    "validate": "bun tasks/validate.mjs",
+    "store:clean": "VARIANT=clean node storefront/server.mjs",
+    "store:realistic": "VARIANT=realistic node storefront/server.mjs",
+    "concierge": "node concierge/server.mjs",
+    "smoke": "node concierge/smoke.mjs",
+    "conformance": "cd vendor/cap/reference && node check.mjs",
+    "score": "node scorer/check.mjs",
+    "probe": "node harness/probe.mjs",
+    "run": "node --env-file=.env harness/run.mjs",
+    "pilot": "node harness/pilot.mjs",
+    "prove": "node harness/prove.mjs",
+    "freeze": "node harness/freeze.mjs",
+    "main": "caffeinate -i node harness/main.mjs",
+    "check": "bun fixture/build.mjs && bun tasks/build.mjs && bun tasks/validate.mjs && node storefront/check.mjs && node concierge/check.mjs && node concierge/smoke.mjs && node scorer/check.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@conciergeprotocol/client": "0.1.4",
+    "@conciergeprotocol/mcp": "0.1.4",
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "@playwright/mcp": "0.0.83"
+  }
+}
