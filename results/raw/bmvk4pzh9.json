@@ -1,0 +1,67 @@
+{
+  "run_id": "bmvk4pzh9",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-04",
+  "condition": "cap_ref",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T22:45:24.665Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.007737,
+    "usage": {
+      "input_tokens": 6057,
+      "output_tokens": 336,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 7677,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 34,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 3718,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0114766,
+    "usage": {
+      "input_tokens": 3943,
+      "output_tokens": 287,
+      "cache_read_input_tokens": 3603,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 1
+  },
+  "total_usd": 0.0192136,
+  "submission": {
+    "status": "found",
+    "values": {
+      "delivery_cost": 5.95,
+      "delivery_days_max": 3
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 3,
+  "fields_total": 3,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

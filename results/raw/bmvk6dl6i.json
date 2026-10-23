@@ -1,0 +1,86 @@
+{
+  "run_id": "bmvk6dl6i",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-09",
+  "condition": "fetch_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:31:52.508Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.050833199999999995,
+    "usage": {
+      "input_tokens": 19526,
+      "output_tokens": 946,
+      "cache_read_input_tokens": 11606,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 14283,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 537,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 357,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 24,
+        "error": true
+      },
+      {
+        "name": "fetch",
+        "ms": 358,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 352,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 318,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 350,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 325,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.050833199999999995,
+  "submission": {
+    "status": "not_available",
+    "reason": "There is no product called \"Men's Orbit Glide 6\" on the Fieldhouse site. I checked all footwear categories (road running, trail running, training, lifestyle) and the only \"Orbit\"-named shoes available are \"Men's Orbit Scramble\" and \"Men's Orbit Trek\" (trail running) — no \"Orbit Glide\" model exists, so no heel-to-toe drop can be provided."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

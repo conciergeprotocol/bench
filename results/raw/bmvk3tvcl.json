@@ -1,0 +1,79 @@
+{
+  "run_id": "bmvk3tvcl",
+  "phase": "arm-scale",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "SCALE-SHIP",
+  "condition": "cap_ref",
+  "rep": 1,
+  "styles": 50000,
+  "at": "2026-10-22T22:20:39.231Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.0203208,
+    "usage": {
+      "input_tokens": 1920,
+      "output_tokens": 556,
+      "cache_read_input_tokens": 7604,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 19980,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 33,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 3321,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 9621,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.029032999999999996,
+    "usage": {
+      "input_tokens": 7566,
+      "output_tokens": 1270,
+      "cache_read_input_tokens": 6005,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 2
+  },
+  "total_usd": 0.049353799999999996,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Graphic Sweatpant",
+        "price": 65,
+        "color": "red"
+      }
+    ],
+    "values": {
+      "delivery_cost": 5.95,
+      "delivery_days_max": 3
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 3,
+  "fields_total": 3,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

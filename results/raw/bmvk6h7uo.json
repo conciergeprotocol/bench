@@ -1,0 +1,119 @@
+{
+  "run_id": "bmvk6h7uo",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-04",
+  "condition": "fetch_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T23:34:52.575Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.09396,
+    "usage": {
+      "input_tokens": 85430,
+      "output_tokens": 1706,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 25131,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 367,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 360,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 351,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 362,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 367,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 357,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 27,
+        "error": true
+      },
+      {
+        "name": "fetch",
+        "ms": 23,
+        "error": true
+      },
+      {
+        "name": "fetch",
+        "ms": 24,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 351,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 343,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 29,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 23,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.09396,
+  "submission": {
+    "status": "found",
+    "values": {
+      "delivery_cost": 5.95,
+      "delivery_days_max": 3
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 3,
+  "fields_total": 3,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

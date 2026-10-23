@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="440" viewBox="0 0 860 440" role="img">
+<title>Successes by category</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+  text { font-family: ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif; fill: #1c1917; }
+  .title { font-size: 16px; font-weight: 650; }
+  .sub { font-size: 12px; fill: #57534e; }
+  .tick { font-size: 11px; fill: #44403c; }
+  .value { font-size: 11px; fill: #1c1917; }
+  .note { font-size: 11px; fill: #57534e; }
+</style>
+<text class="title" x="24" y="28">Successes by category</text>
+<text class="sub" x="24" y="48">Each bar is out of 30. FP one fact, MC constraints, PR page or record, LD store and delivery, CQ catalog.</text>
+<line x1="56" y1="376" x2="836" y2="376" stroke="#e7e5e4"/>
+<text class="tick" x="48" y="380" text-anchor="end">0</text>
+<line x1="56" y1="301.5" x2="836" y2="301.5" stroke="#e7e5e4"/>
+<text class="tick" x="48" y="305.5" text-anchor="end">9</text>
+<line x1="56" y1="227" x2="836" y2="227" stroke="#e7e5e4"/>
+<text class="tick" x="48" y="231" text-anchor="end">18</text>
+<line x1="56" y1="152.5" x2="836" y2="152.5" stroke="#e7e5e4"/>
+<text class="tick" x="48" y="156.5" text-anchor="end">27</text>
+<line x1="56" y1="78" x2="836" y2="78" stroke="#e7e5e4"/>
+<text class="tick" x="48" y="82" text-anchor="end">36</text>
+
+<rect x="78" y="127.66666666666666" width="25" height="248.33333333333334" fill="#1d4e89"/>
+<rect x="106" y="135.94444444444443" width="25" height="240.05555555555557" fill="#8d99a6"/>
+<rect x="134" y="127.66666666666666" width="25" height="248.33333333333334" fill="#c47b3a"/>
+<rect x="162" y="127.66666666666666" width="25" height="248.33333333333334" fill="#8c3a4b"/>
+<text class="tick" x="134" y="404" text-anchor="middle">FP</text>
+<rect x="234" y="127.66666666666666" width="25" height="248.33333333333334" fill="#1d4e89"/>
+<rect x="262" y="127.66666666666666" width="25" height="248.33333333333334" fill="#8d99a6"/>
+<rect x="290" y="127.66666666666666" width="25" height="248.33333333333334" fill="#c47b3a"/>
+<rect x="318" y="127.66666666666666" width="25" height="248.33333333333334" fill="#8c3a4b"/>
+<text class="tick" x="290" y="404" text-anchor="middle">MC</text>
+<rect x="390" y="127.66666666666666" width="25" height="248.33333333333334" fill="#1d4e89"/>
+<rect x="418" y="127.66666666666666" width="25" height="248.33333333333334" fill="#8d99a6"/>
+<rect x="446" y="135.94444444444443" width="25" height="240.05555555555557" fill="#c47b3a"/>
+<rect x="474" y="127.66666666666666" width="25" height="248.33333333333334" fill="#8c3a4b"/>
+<text class="tick" x="446" y="404" text-anchor="middle">PR</text>
+<rect x="546" y="160.77777777777777" width="25" height="215.22222222222223" fill="#1d4e89"/>
+<rect x="574" y="160.77777777777777" width="25" height="215.22222222222223" fill="#8d99a6"/>
+<rect x="602" y="127.66666666666666" width="25" height="248.33333333333334" fill="#c47b3a"/>
+<rect x="630" y="135.94444444444443" width="25" height="240.05555555555557" fill="#8c3a4b"/>
+<text class="tick" x="602" y="404" text-anchor="middle">LD</text>
+<rect x="702" y="135.94444444444443" width="25" height="240.05555555555557" fill="#1d4e89"/>
+<rect x="730" y="135.94444444444443" width="25" height="240.05555555555557" fill="#8d99a6"/>
+<rect x="758" y="135.94444444444443" width="25" height="240.05555555555557" fill="#c47b3a"/>
+<rect x="786" y="144.22222222222223" width="25" height="231.77777777777777" fill="#8c3a4b"/>
+<text class="tick" x="758" y="404" text-anchor="middle">CQ</text>
+
+<rect x="24" y="422" width="12" height="12" rx="2" fill="#1d4e89"/>
+<text class="tick" x="42" y="433">CAP</text>
+<rect x="174" y="422" width="12" height="12" rx="2" fill="#8d99a6"/>
+<text class="tick" x="192" y="433">Fetch, clean</text>
+<rect x="324" y="422" width="12" height="12" rx="2" fill="#c47b3a"/>
+<text class="tick" x="342" y="433">Fetch, realistic</text>
+<rect x="474" y="422" width="12" height="12" rx="2" fill="#8c3a4b"/>
+<text class="tick" x="492" y="433">Browser</text>
+</svg>

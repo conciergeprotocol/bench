@@ -1,0 +1,123 @@
+{
+  "run_id": "bmvk5gdw4",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-01",
+  "condition": "fetch_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T23:06:13.349Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.09377719999999999,
+    "usage": {
+      "input_tokens": 36368,
+      "output_tokens": 1872,
+      "cache_read_input_tokens": 11606,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 24217,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 584,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 391,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 391,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 350,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 351,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 336,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 27,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 343,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 25,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 24,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 12,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.09377719999999999,
+  "submission": {
+    "items": [
+      {
+        "name": "Men's Horizon Trek 5",
+        "color": "Black",
+        "size": "8",
+        "price": 145,
+        "in_stock": true,
+        "link": "http://127.0.0.1:51814/p/mens-horizon-trek-5?color=black&size=8"
+      },
+      {
+        "name": "Men's Sable Trail 2",
+        "color": "Black",
+        "size": "8",
+        "price": 155,
+        "in_stock": true,
+        "link": "http://127.0.0.1:51814/p/mens-sable-trail-2?color=black&size=8"
+      }
+    ],
+    "status": "found"
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 5,
+  "fields_total": 5,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

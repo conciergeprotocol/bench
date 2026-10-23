@@ -1,0 +1,111 @@
+{
+  "run_id": "bmvjyjiz4",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "CQ-10",
+  "condition": "fetch_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T19:52:42.739Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.184572,
+    "usage": {
+      "input_tokens": 38142,
+      "output_tokens": 1473,
+      "cache_read_input_tokens": 12720,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 24482,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 387,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 373,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 356,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 368,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 340,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 343,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 430,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 389,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 345,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 328,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 348,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 22,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 390,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.184572,
+  "submission": {
+    "status": "not_available",
+    "reason": "The Jackets category has 35 products, and 4 of them come in sand: Men's Everyday Jacket, Men's Tech Puffer, Women's Everyday Windbreaker and Women's Graphic Windbreaker. For size L, the store pickup table on each product page lists the Venice store as \"Not in stock\". So no sand jacket in size L is in stock both online and at Venice."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

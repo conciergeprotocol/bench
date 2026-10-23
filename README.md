@@ -4,7 +4,7 @@ When does a visiting agent do better asking a store's CAP front door than readin
 
 This repository holds a synthetic store, the tasks, and the scorer. The same record feeds a clean storefront, a storefront with faults seen on real sites, and the CAP concierges. Only the interface changes between conditions.
 
-Status: building. Nothing here is a result.
+The frozen run of October 22, 2026 is written up in [report/](report/index.md). The pilot and the screen are not results.
 
 ## Run
 
@@ -34,7 +34,7 @@ fixture/      Seeded catalog, stores, shipping, returns, and the fault plan
 tasks/        Queries, task builder, answer schema, validator, and the review sheet
 storefront/   Server-rendered store, clean and realistic variants, and its page checks
 concierge/    The reference CAP concierge: catalog tools, the Sonnet 5 answer hook, and the smoke test
-vendor/cap/   The CAP reference server, pinned as a submodule
+vendor/cap/   The CAP reference server, pinned as a submodule at the commit the run was frozen with
 harness/      Visitor loop: the reference fetch server, Playwright MCP, and the CAP MCP server
 scorer/       Deterministic scoring of submit_answer against the record
 lib/          Seeded random numbers and model prices
@@ -48,7 +48,11 @@ lib/          Seeded random numbers and model prices
 
 The browser condition is Playwright MCP with accessibility snapshots. The harness does not give it the screenshot tool or the unsafe code tool. Fetch is `mcp-server-fetch` 2026.10.19, clamped at 5,000 characters a call, allowed to reach localhost, and still honoring robots.txt. CAP conditions use `@conciergeprotocol/mcp`. The visitor is Claude Opus 5.5 at the API's default effort, with thinking display set to summarized so the traces keep the reasoning text. A run fails at 180 seconds or $2 of visitor spend. Waiting out a front door's rate limit is not part of the 180 seconds. The harness stops at $300.
 
-Still to come: `report/`.
+The writeup, the charts, and the run table are in `report/`. `node report/build.mjs` rebuilds them from `results/raw/`.
+
+`results/raw/` holds the 861 runs of the frozen plan, one JSON file each, with the visitor's tool calls, token usage, cost, and score. Pilot, screen, and follow-up runs are not published.
+
+The `vendor/cap` pin predates later edits to the CAP repository, so some of its examples differ from the current spec site. Changing the pin would change the frozen run. The current spec is at [conciergeprotocol.org](https://conciergeprotocol.org).
 
 ## Storefront faults
 

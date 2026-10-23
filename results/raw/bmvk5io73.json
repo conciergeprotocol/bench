@@ -1,0 +1,113 @@
+{
+  "run_id": "bmvk5io73",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-08",
+  "condition": "fetch_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:07:54.710Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.06636760000000001,
+    "usage": {
+      "input_tokens": 25744,
+      "output_tokens": 1289,
+      "cache_read_input_tokens": 9948,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 18999,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 388,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 361,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 330,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 370,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 342,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 349,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 423,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 346,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 340,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 355,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.06636760000000001,
+  "submission": {
+    "items": [
+      {
+        "name": "Women's Atlas Glide 4",
+        "color": "Red",
+        "size": "8",
+        "price": 109,
+        "in_stock": true,
+        "link": "http://127.0.0.1:52000/p/womens-atlas-glide-4?color=red&size=8"
+      },
+      {
+        "name": "Men's Heavyweight Jacket",
+        "color": "Charcoal",
+        "size": "L",
+        "price": 215,
+        "in_stock": true,
+        "link": "http://127.0.0.1:52000/p/mens-heavyweight-jacket?color=charcoal&size=L"
+      }
+    ],
+    "status": "found"
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 9,
+  "fields_total": 9,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

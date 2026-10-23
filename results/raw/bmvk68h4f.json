@@ -1,0 +1,79 @@
+{
+  "run_id": "bmvk68h4f",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-01",
+  "condition": "browser_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:27:55.643Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.023052700000000002,
+    "usage": {
+      "input_tokens": 16010,
+      "output_tokens": 672,
+      "cache_read_input_tokens": 36827,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 16313,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 429,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 5040,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 548,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 584,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 11,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.023052700000000002,
+  "submission": {
+    "status": "found",
+    "values": {
+      "returnable": false,
+      "return_window_days": 30
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

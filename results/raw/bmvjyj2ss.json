@@ -1,0 +1,81 @@
+{
+  "run_id": "bmvjyj2ss",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-10",
+  "condition": "fetch_clean",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T19:52:10.831Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.047366,
+    "usage": {
+      "input_tokens": 7884,
+      "output_tokens": 712,
+      "cache_read_input_tokens": 7950,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 13396,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 577,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 369,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 369,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 371,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.047366,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Men's Ridge Pocket Tee",
+        "color": "orange",
+        "size": "S",
+        "price": 25,
+        "in_stock": true,
+        "link": "http://127.0.0.1:61467/p/mens-ridge-pocket-tee?color=orange&size=S"
+      }
+    ],
+    "values": {
+      "stores_in_stock": [],
+      "in_stock_at_store": false,
+      "in_stock_online": true
+    },
+    "reason": "None of the three stores (Downtown, Venice, Pasadena) has the orange size S in stock for pickup. It can only be ordered online."
+  },
+  "success": false,
+  "field_accuracy": 0.5,
+  "fields_correct": 1,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": "invented item"
+}

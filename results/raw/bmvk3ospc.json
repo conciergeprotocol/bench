@@ -1,0 +1,144 @@
+{
+  "run_id": "bmvk3ospc",
+  "phase": "arm-scale",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "SCALE-SHIP",
+  "condition": "browser_heavy",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T22:16:50.120Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.273336,
+    "usage": {
+      "input_tokens": 58254,
+      "output_tokens": 1329,
+      "cache_read_input_tokens": 68700,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 28112,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 362,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 49,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 510,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 62,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 510,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 58,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 510,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 45,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 4,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 566,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 593,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 573,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 12,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 574,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.273336,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Graphic Sweatpant",
+        "color": "Red",
+        "size": "S",
+        "price": 65,
+        "in_stock": true,
+        "link": "http://127.0.0.1:62153/p/womens-graphic-sweatpant?color=red&size=S"
+      }
+    ],
+    "values": {
+      "delivery_cost": 5.95,
+      "delivery_days_max": 3
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 3,
+  "fields_total": 3,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

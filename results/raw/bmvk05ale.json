@@ -1,0 +1,136 @@
+{
+  "run_id": "bmvk05ale",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "CQ-06",
+  "condition": "fetch_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T20:38:00.524Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.443046,
+    "usage": {
+      "input_tokens": 97902,
+      "output_tokens": 2397,
+      "cache_read_input_tokens": 17490,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 47098,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 393,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 369,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 23,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 23,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 26,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 22,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 24,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 24,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 12,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 528,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 9,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.443046,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Tempo Pocket Tee",
+        "color": "sand",
+        "size": "S",
+        "price": 14,
+        "in_stock": true,
+        "link": "http://127.0.0.1:49773/p/tempo-pocket-tee?color=sand&size=S"
+      },
+      {
+        "name": "Women's Heavyweight Tee",
+        "color": "gray",
+        "size": "S",
+        "price": 14,
+        "in_stock": true,
+        "link": "http://127.0.0.1:49773/p/womens-heavyweight-tee?color=gray&size=S"
+      }
+    ],
+    "values": {
+      "in_stock_online": true
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 5,
+  "fields_total": 5,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

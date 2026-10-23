@@ -1,0 +1,143 @@
+{
+  "run_id": "bmvk5mwqm",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-01",
+  "condition": "fetch_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:11:25.110Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.191216,
+    "usage": {
+      "input_tokens": 81800,
+      "output_tokens": 2430,
+      "cache_read_input_tokens": 16580,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 31635,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 536,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 367,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 368,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 359,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 343,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 325,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 369,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 325,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 325,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 417,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 335,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 25,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 23,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 28,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 23,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.191216,
+  "submission": {
+    "items": [
+      {
+        "name": "Men's Horizon Trek 5",
+        "color": "black",
+        "size": "8",
+        "price": 145,
+        "in_stock": true,
+        "link": "http://127.0.0.1:52375/p/mens-horizon-trek-5?color=black&size=8"
+      },
+      {
+        "name": "Men's Sable Trail 2",
+        "color": "black",
+        "size": "8",
+        "price": 155,
+        "in_stock": true,
+        "link": "http://127.0.0.1:52375/p/mens-sable-trail-2?color=black&size=8"
+      }
+    ],
+    "status": "found"
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 5,
+  "fields_total": 5,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

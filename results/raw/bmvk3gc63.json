@@ -1,0 +1,116 @@
+{
+  "run_id": "bmvk3gc63",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-09",
+  "condition": "browser_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T22:10:09.166Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.326978,
+    "usage": {
+      "input_tokens": 70958,
+      "output_tokens": 1539,
+      "cache_read_input_tokens": 61830,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 21838,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 509,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 23,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 53,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 5,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 51,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 5,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 52,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 5,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 50,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 6,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 54,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 7,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 52,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 6,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.326978,
+  "submission": {
+    "status": "not_available",
+    "reason": "Only four jackets on the site come in charcoal. Men's Ridge Puffer ($115, no logos) and Women's Trail Jacket ($195, no logos) are both sold out online in charcoal size M. Men's Heavyweight Jacket is in stock online in charcoal M, but it costs $215. Women's Essential Puffer costs $220. Both of those are over the $210 limit. No charcoal jacket meets every requirement."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

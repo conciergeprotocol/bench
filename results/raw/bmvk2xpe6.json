@@ -1,0 +1,100 @@
+{
+  "run_id": "bmvk2xpe6",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-10",
+  "condition": "fetch_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T21:55:40.146Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.17031,
+    "usage": {
+      "input_tokens": 36337,
+      "output_tokens": 1105,
+      "cache_read_input_tokens": 14310,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 21998,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 379,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 362,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 371,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 372,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 18,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 25,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 23,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 362,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.17031,
+  "submission": {
+    "status": "not_available",
+    "reason": "On the product page for the Men's Ridge Pocket Tee in orange, size S (SKU TEE-053-ORG-S), the pick-up-in-store table shows \"Not in stock\" at all three stores: Downtown, Venice and Pasadena. No store has it today. It can be ordered online, where it is in stock for $25.",
+    "values": {
+      "stores_in_stock": [],
+      "in_stock_online": true
+    },
+    "items": [
+      {
+        "name": "Men's Ridge Pocket Tee",
+        "color": "orange",
+        "size": "S",
+        "price": 25,
+        "in_stock": true,
+        "link": "http://127.0.0.1:60043/p/mens-ridge-pocket-tee?color=orange&size=S"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

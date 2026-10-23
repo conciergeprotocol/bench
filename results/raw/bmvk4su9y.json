@@ -1,0 +1,66 @@
+{
+  "run_id": "bmvk4su9y",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-10",
+  "condition": "fetch_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T22:47:43.117Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.0214944,
+    "usage": {
+      "input_tokens": 5929,
+      "output_tokens": 831,
+      "cache_read_input_tokens": 6632,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 12618,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 552,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 372,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 355,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 344,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.0214944,
+  "submission": {
+    "status": "not_available",
+    "reason": "The only women's orange road running shoe found is the Women's Atlas Glide 4 (Orange, sale price $109, under $120), but size 7.5 is sold out for that color. No other women's road running shoe on Fieldhouse is offered in orange, so there is no in-stock online match for size 7.5 orange road running shoes within the $120 budget."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

@@ -1,0 +1,136 @@
+{
+  "run_id": "bmvk5jagg",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-10",
+  "condition": "browser_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:08:33.347Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.1280635,
+    "usage": {
+      "input_tokens": 110032,
+      "output_tokens": 2028,
+      "cache_read_input_tokens": 78915,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 29054,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 346,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 10,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 567,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 592,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 20,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 38,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 11,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 10,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 559,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 598,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 566,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 584,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 604,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 18,
+        "error": false
+      },
+      {
+        "name": "browser_navigate_back",
+        "ms": 50,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.1280635,
+  "submission": {
+    "status": "not_available",
+    "reason": "There are no women's orange road running shoes in size 7.5 available for $120 or less that are in stock online. The only matching product is the Women's Atlas Glide 4 in orange, size 7.5, priced at $109 (sale from $140), but it is sold out online. It is available for pickup at the Downtown store only."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

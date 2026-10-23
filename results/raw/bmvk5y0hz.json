@@ -1,0 +1,80 @@
+{
+  "run_id": "bmvk5y0hz",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-09",
+  "condition": "cap_ref",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T23:19:42.187Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.0089194,
+    "usage": {
+      "input_tokens": 859,
+      "output_tokens": 602,
+      "cache_read_input_tokens": 5907,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 11001,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 34,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 3365,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0061204,
+    "usage": {
+      "input_tokens": 1675,
+      "output_tokens": 229,
+      "cache_read_input_tokens": 2402,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 1
+  },
+  "total_usd": 0.015039799999999999,
+  "submission": {
+    "items": [
+      {
+        "name": "Women's Tech Puffer",
+        "color": "orange",
+        "size": "M",
+        "price": 155,
+        "in_stock": false,
+        "link": "http://127.0.0.1:53292/p/womens-tech-puffer?color=orange&size=M"
+      }
+    ],
+    "status": "found",
+    "values": {
+      "stores_in_stock": [],
+      "in_stock_online": true,
+      "in_stock_at_store": false
+    }
+  },
+  "success": false,
+  "field_accuracy": 0.5,
+  "fields_correct": 1,
+  "fields_total": 2,
+  "false_claims": 1,
+  "false_claim_notes": [
+    "JKT-027-ORG-M stock contradicts the record"
+  ],
+  "correct_refusal": false,
+  "failure_reason": "invented item"
+}

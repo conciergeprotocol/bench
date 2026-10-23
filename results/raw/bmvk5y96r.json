@@ -1,0 +1,64 @@
+{
+  "run_id": "bmvk5y96r",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-09",
+  "condition": "cap_ref",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:19:53.234Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.007697399999999999,
+    "usage": {
+      "input_tokens": 1028,
+      "output_tokens": 446,
+      "cache_read_input_tokens": 5907,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 10803,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 34,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 3273,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0065304,
+    "usage": {
+      "input_tokens": 1720,
+      "output_tokens": 261,
+      "cache_read_input_tokens": 2402,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 1
+  },
+  "total_usd": 0.014227799999999999,
+  "submission": {
+    "status": "not_available",
+    "reason": "Fieldhouse does not carry a \"Men's Orbit Glide 6\" — no such product exists in their catalog. The closest matches are Men's Orbit Trek, Men's Orbit Scramble, and various other \"Glide\" models (Flux Glide 3, Atlas Glide 4, Juniper Glide, Ridge Glide 4), none of which is the requested item."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

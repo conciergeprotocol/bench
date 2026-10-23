@@ -1,0 +1,84 @@
+{
+  "run_id": "bmvjys4sb",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-09",
+  "condition": "fetch_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T19:59:21.036Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.135336,
+    "usage": {
+      "input_tokens": 29033,
+      "output_tokens": 833,
+      "cache_read_input_tokens": 12720,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 21357,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 374,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 376,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 384,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 23,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 24,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 11,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 30,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.135336,
+  "submission": {
+    "status": "not_available",
+    "reason": "The Tempo Short in green ($55, style SHO-026) is sold out online in every size (XS, S, M, L, XL and XXL), according to the site's variant availability data. The product page shows green as \"In stock,\" but no size can be ordered online. Size M in green is in stock for pickup at the Pasadena store.",
+    "values": {
+      "in_stock_online": false
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

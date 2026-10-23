@@ -1,0 +1,100 @@
+{
+  "run_id": "bmvjxnsw1",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-06",
+  "condition": "browser_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T19:27:55.267Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.086734,
+    "usage": {
+      "input_tokens": 14419,
+      "output_tokens": 972,
+      "cache_read_input_tokens": 48090,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 17379,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 559,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 50,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 510,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 49,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 510,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 52,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 5,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 50,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 509,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.086734,
+  "submission": {
+    "status": "found",
+    "values": {
+      "exchange_free": false,
+      "return_window_days": 30
+    },
+    "reason": "The official Return policy page says items must be returned within 30 days of delivery, and free size or color exchanges only apply within that window. Delivery was 38 days ago, so the free exchange no longer applies. The Returns help page mentions 45 days and says exchanges are \"always free,\" but that conflicts with the official policy, so I went with the official policy."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

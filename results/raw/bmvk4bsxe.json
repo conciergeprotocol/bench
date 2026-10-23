@@ -1,0 +1,83 @@
+{
+  "run_id": "bmvk4bsxe",
+  "phase": "arm-scale",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "SCALE-CHEAP",
+  "condition": "cap_ref",
+  "rep": 2,
+  "styles": 5000,
+  "at": "2026-10-22T22:34:51.679Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.040141,
+    "usage": {
+      "input_tokens": 6020,
+      "output_tokens": 708,
+      "cache_read_input_tokens": 9505,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 36231,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 36,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 2976,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 16862,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 5144,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0667736,
+    "usage": {
+      "input_tokens": 18361,
+      "output_tokens": 2813,
+      "cache_read_input_tokens": 9608,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 3
+  },
+  "total_usd": 0.1069146,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Men's Drift Trail 363",
+        "color": "Black",
+        "size": "8",
+        "price": 84,
+        "in_stock": true,
+        "link": "http://127.0.0.1:64051/p/mens-drift-trail-363?color=black&size=8"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 5,
+  "fields_total": 5,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

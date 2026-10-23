@@ -1,0 +1,130 @@
+{
+  "run_id": "bmvk4zjbb",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-01",
+  "condition": "fetch_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T22:53:07.989Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.065526,
+    "usage": {
+      "input_tokens": 56236,
+      "output_tokens": 1858,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 24520,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 994,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 418,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 428,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 451,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 642,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 393,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 380,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 577,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 21,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 12,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 434,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 359,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 366,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.065526,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Men's Sable Trail 2",
+        "color": "black",
+        "size": "8",
+        "price": 155,
+        "in_stock": true,
+        "link": "http://127.0.0.1:49927/p/mens-sable-trail-2?color=black&size=8"
+      },
+      {
+        "name": "Men's Orbit Trek",
+        "color": "black",
+        "size": "8",
+        "price": 99,
+        "in_stock": true,
+        "link": "http://127.0.0.1:49927/p/mens-orbit-trek?color=black&size=8"
+      }
+    ]
+  },
+  "success": false,
+  "field_accuracy": 1,
+  "fields_correct": 5,
+  "fields_total": 5,
+  "false_claims": 1,
+  "false_claim_notes": [
+    "TRL-015-BLK-080 was not asked for"
+  ],
+  "correct_refusal": false,
+  "failure_reason": "wrong fact"
+}

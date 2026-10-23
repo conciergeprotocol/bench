@@ -1,0 +1,68 @@
+{
+  "run_id": "bmvk4o05x",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-06",
+  "condition": "browser_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T22:43:51.176Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.0390734,
+    "usage": {
+      "input_tokens": 6484,
+      "output_tokens": 321,
+      "cache_read_input_tokens": 27752,
+      "cache_creation_input_tokens": 6938
+    },
+    "wall_ms": 6551,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 472,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 11,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 36,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.0390734,
+  "submission": {
+    "status": "found",
+    "values": {
+      "closing_time": "19:00"
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

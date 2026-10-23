@@ -1,0 +1,84 @@
+{
+  "run_id": "bmvk5i8lu",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-05",
+  "condition": "fetch_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T23:07:26.826Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.029303,
+    "usage": {
+      "input_tokens": 25613,
+      "output_tokens": 738,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 11221,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 556,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 369,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 372,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 24,
+        "error": true
+      },
+      {
+        "name": "fetch",
+        "ms": 24,
+        "error": true
+      },
+      {
+        "name": "fetch",
+        "ms": 28,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 391,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.029303,
+  "submission": {
+    "status": "found",
+    "values": {
+      "returnable": false,
+      "return_window_days": 30
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

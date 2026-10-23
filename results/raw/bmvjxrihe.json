@@ -1,0 +1,101 @@
+{
+  "run_id": "bmvjxrihe",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "CQ-10",
+  "condition": "fetch_clean",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T19:30:50.592Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.09594,
+    "usage": {
+      "input_tokens": 17313,
+      "output_tokens": 1239,
+      "cache_read_input_tokens": 9540,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 19345,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 501,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 370,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 354,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 367,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 351,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 338,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 371,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 358,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 344,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 326,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 327,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.09594,
+  "submission": {
+    "status": "not_available",
+    "reason": "Four jackets come in sand: Women's Graphic Windbreaker ($154 on sale), Men's Everyday Jacket ($165), Men's Tech Puffer ($190) and Women's Everyday Windbreaker ($200). All four are in stock online in sand, size L, but none is in stock at the Venice store. The site shows 'Venice: Not in stock' for each one, so no jacket meets both conditions."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

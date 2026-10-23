@@ -1,0 +1,94 @@
+{
+  "run_id": "bmvjxrxwd",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "CQ-03",
+  "condition": "cap_ref",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T19:31:24.338Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.0280888,
+    "usage": {
+      "input_tokens": 2537,
+      "output_tokens": 821,
+      "cache_read_input_tokens": 7604,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 33369,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 36,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 4151,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 17559,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.056767,
+    "usage": {
+      "input_tokens": 16208,
+      "output_tokens": 2315,
+      "cache_read_input_tokens": 6005,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 2
+  },
+  "total_usd": 0.0848558,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Ember Trek 5",
+        "color": "Gray",
+        "size": "8.5",
+        "price": 110,
+        "in_stock": true,
+        "link": "http://127.0.0.1:59326/p/womens-ember-trek-5?color=gray&size=8.5"
+      },
+      {
+        "name": "Women's Orbit Scramble",
+        "color": "Gray",
+        "size": "8.5",
+        "price": 109,
+        "in_stock": true,
+        "link": "http://127.0.0.1:59326/p/womens-orbit-scramble?color=gray&size=8.5"
+      },
+      {
+        "name": "Women's Drift Scramble",
+        "color": "Gray",
+        "size": "8.5",
+        "price": 140,
+        "in_stock": true,
+        "link": "http://127.0.0.1:59326/p/womens-drift-scramble?color=gray&size=8.5"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 13,
+  "fields_total": 13,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

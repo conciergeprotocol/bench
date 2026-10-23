@@ -1,0 +1,266 @@
+{
+  "run_id": "bmvk4mjn1",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-09",
+  "condition": "browser_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T22:43:31.186Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 1.0348195,
+    "usage": {
+      "input_tokens": 992705,
+      "output_tokens": 3688,
+      "cache_read_input_tokens": 236745,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 54609,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 544,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 7,
+        "error": true
+      },
+      {
+        "name": "browser_find",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 5,
+        "error": true
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 6,
+        "error": true
+      },
+      {
+        "name": "browser_type",
+        "ms": 34,
+        "error": false
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 67,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 21,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 29,
+        "error": false
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 48,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 30,
+        "error": false
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 53,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 21,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 5,
+        "error": true
+      },
+      {
+        "name": "browser_find",
+        "ms": 21,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 6,
+        "error": true
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 59,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 59,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 51,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 55,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 8,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 48,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 27,
+        "error": false
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 53,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 18,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 25,
+        "error": false
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 54,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 20,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 48,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 44,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 50,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 50,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 56,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 18,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 49,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 1.0348195,
+  "submission": {
+    "status": "not_available",
+    "reason": "The Men's Orbit Glide 6 product does not exist on the Fieldhouse website. Multiple searches (product name, partial names, direct URL attempts, and category browsing) confirm that only four \"Orbit\" products are available: Men's Orbit Scramble, Men's Orbit Trek, Women's Orbit Scramble, and Women's Orbit Trek. There is no \"Orbit Glide 6\" variant in their catalog."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

@@ -1,0 +1,71 @@
+{
+  "run_id": "bmvk644g8",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-10",
+  "condition": "fetch_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T23:24:28.292Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.023935,
+    "usage": {
+      "input_tokens": 19860,
+      "output_tokens": 815,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 11867,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 362,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 359,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 367,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 352,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 366,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.023935,
+  "submission": {
+    "status": "not_available",
+    "reason": "The only women's orange road running shoes found at Fieldhouse is the Women's Atlas Glide 4 (priced at $109, which is within the $120 budget). However, size 7.5 in orange is sold out online. Sizes 7 and 7.5 are both listed as \"Sold out\" for this product in orange."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

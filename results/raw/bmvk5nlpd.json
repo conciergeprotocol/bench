@@ -1,0 +1,66 @@
+{
+  "run_id": "bmvk5nlpd",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-06",
+  "condition": "cap_ref",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:11:32.190Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.005823399999999999,
+    "usage": {
+      "input_tokens": 801,
+      "output_tokens": 304,
+      "cache_read_input_tokens": 5907,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 6749,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 34,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 1710,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0034944,
+    "usage": {
+      "input_tokens": 1237,
+      "output_tokens": 54,
+      "cache_read_input_tokens": 2402,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 1
+  },
+  "total_usd": 0.0093178,
+  "submission": {
+    "status": "found",
+    "values": {
+      "closing_time": "19:00"
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

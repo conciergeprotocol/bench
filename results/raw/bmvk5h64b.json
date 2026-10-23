@@ -1,0 +1,64 @@
+{
+  "run_id": "bmvk5h64b",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-09",
+  "condition": "cap_ref",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T23:06:32.956Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.008024,
+    "usage": {
+      "input_tokens": 6069,
+      "output_tokens": 391,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 7646,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 37,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 2966,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0050723999999999995,
+    "usage": {
+      "input_tokens": 1261,
+      "output_tokens": 207,
+      "cache_read_input_tokens": 2402,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 1
+  },
+  "total_usd": 0.0130964,
+  "submission": {
+    "status": "not_available",
+    "reason": "The Women's Tech Puffer in orange, size M is not in stock at any of the three Fieldhouse stores today. It is only available for online order."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

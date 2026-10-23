@@ -1,0 +1,84 @@
+{
+  "run_id": "bmvjzu2to",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-03",
+  "condition": "fetch_clean",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T20:28:42.351Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.054506,
+    "usage": {
+      "input_tokens": 10564,
+      "output_tokens": 533,
+      "cache_read_input_tokens": 7950,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 12065,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 553,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 374,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 368,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 352,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 375,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.054506,
+  "submission": {
+    "status": "found",
+    "values": {
+      "material": "80% cotton, 20% polyester"
+    },
+    "items": [
+      {
+        "name": "Women's Graphic Pullover Hoodie",
+        "price": 60,
+        "color": "gray",
+        "in_stock": true,
+        "link": "http://127.0.0.1:65323/p/womens-graphic-pullover-hoodie?color=gray"
+      }
+    ]
+  },
+  "success": false,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 1,
+  "false_claim_notes": [
+    "HOD-032 stock needs a size"
+  ],
+  "correct_refusal": false,
+  "failure_reason": "wrong fact"
+}

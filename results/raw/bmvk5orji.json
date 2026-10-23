@@ -1,0 +1,64 @@
+{
+  "run_id": "bmvk5orji",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-09",
+  "condition": "cap_ref",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T23:12:28.666Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.008606,
+    "usage": {
+      "input_tokens": 6136,
+      "output_tokens": 494,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 8997,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 24,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 3414,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0062483999999999994,
+    "usage": {
+      "input_tokens": 1699,
+      "output_tokens": 237,
+      "cache_read_input_tokens": 2402,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 1
+  },
+  "total_usd": 0.0148544,
+  "submission": {
+    "status": "not_available",
+    "reason": "The Men's Orbit Glide 6 is not found in Fieldhouse's catalog. The store confirmed this product doesn't exist under that exact name."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

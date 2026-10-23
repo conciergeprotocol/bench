@@ -1,0 +1,76 @@
+{
+  "run_id": "bmvk5ubbo",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-09",
+  "condition": "fetch_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T23:16:51.001Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.028149,
+    "usage": {
+      "input_tokens": 23909,
+      "output_tokens": 848,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 12171,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 369,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 359,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 347,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 428,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 379,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 348,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.028149,
+  "submission": {
+    "status": "not_available",
+    "reason": "The Women's Tech Puffer in orange, size M is not in stock at any Fieldhouse store location (Downtown, Venice, or Pasadena)."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

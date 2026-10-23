@@ -1,0 +1,107 @@
+{
+  "run_id": "bmvk5zrmh",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-09",
+  "condition": "browser_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:21:10.654Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.118872,
+    "usage": {
+      "input_tokens": 47888,
+      "output_tokens": 922,
+      "cache_read_input_tokens": 69380,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 17593,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 452,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 7,
+        "error": true
+      },
+      {
+        "name": "browser_type",
+        "ms": 615,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 22,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 46,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 56,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.118872,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Tech Puffer",
+        "color": "Orange",
+        "size": "M",
+        "price": 155,
+        "in_stock": false,
+        "link": "http://127.0.0.1:53447/p/womens-tech-puffer?color=orange&size=M"
+      }
+    ],
+    "values": {
+      "in_stock_online": true,
+      "in_stock_at_store": false,
+      "stores_in_stock": []
+    }
+  },
+  "success": false,
+  "field_accuracy": 0.5,
+  "fields_correct": 1,
+  "fields_total": 2,
+  "false_claims": 1,
+  "false_claim_notes": [
+    "JKT-027-ORG-M stock contradicts the record"
+  ],
+  "correct_refusal": false,
+  "failure_reason": "invented item"
+}

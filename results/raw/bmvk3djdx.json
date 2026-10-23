@@ -1,0 +1,71 @@
+{
+  "run_id": "bmvk3djdx",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-03",
+  "condition": "cap_ref",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T22:07:49.408Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.0116846,
+    "usage": {
+      "input_tokens": 1016,
+      "output_tokens": 324,
+      "cache_read_input_tokens": 5703,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 12762,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 30,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 6277,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0170288,
+    "usage": {
+      "input_tokens": 5944,
+      "output_tokens": 418,
+      "cache_read_input_tokens": 4804,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 1
+  },
+  "total_usd": 0.0287134,
+  "submission": {
+    "status": "found",
+    "values": {
+      "returnable": false
+    },
+    "items": [
+      {
+        "name": "Men's Ridge Fleece Hoodie"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

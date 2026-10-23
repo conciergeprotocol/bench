@@ -1,0 +1,103 @@
+{
+  "run_id": "bmvk4vfoa",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-08",
+  "condition": "fetch_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T22:49:47.151Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.047028,
+    "usage": {
+      "input_tokens": 16425,
+      "output_tokens": 1252,
+      "cache_read_input_tokens": 8290,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 15445,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 535,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 364,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 327,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 357,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 341,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 340,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 365,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 337,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.047028,
+  "submission": {
+    "items": [
+      {
+        "name": "Women's Atlas Glide 4",
+        "color": "red",
+        "size": "8",
+        "price": 109,
+        "in_stock": true,
+        "link": "http://127.0.0.1:49477/p/womens-atlas-glide-4?color=red&size=8"
+      },
+      {
+        "name": "Men's Heavyweight Jacket",
+        "color": "charcoal",
+        "size": "L",
+        "price": 215,
+        "in_stock": true,
+        "link": "http://127.0.0.1:49477/p/mens-heavyweight-jacket?color=charcoal&size=L"
+      }
+    ],
+    "status": "found"
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 9,
+  "fields_total": 9,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

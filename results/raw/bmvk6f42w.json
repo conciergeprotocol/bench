@@ -1,0 +1,66 @@
+{
+  "run_id": "bmvk6f42w",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-10",
+  "condition": "fetch_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T23:33:00.770Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.0211164,
+    "usage": {
+      "input_tokens": 5950,
+      "output_tokens": 789,
+      "cache_read_input_tokens": 6632,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 11529,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 475,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 362,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 348,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 343,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.0211164,
+  "submission": {
+    "status": "not_available",
+    "reason": "The only women's orange road running shoe found, the Women's Atlas Glide 4 (orange, $109), is sold out in size 7.5. No other women's road running shoes come in an orange colorway, so there are no matching in-stock options under $120 in that size."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

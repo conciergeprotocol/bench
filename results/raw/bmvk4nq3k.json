@@ -1,0 +1,82 @@
+{
+  "run_id": "bmvk4nq3k",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-09",
+  "condition": "fetch_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T22:43:44.269Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.035739,
+    "usage": {
+      "input_tokens": 11608,
+      "output_tokens": 672,
+      "cache_read_input_tokens": 8290,
+      "cache_creation_input_tokens": 1658
+    },
+    "wall_ms": 11945,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 514,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 370,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 353,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 353,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 372,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.035739,
+  "submission": {
+    "items": [
+      {
+        "name": "Women's Tech Puffer",
+        "color": "orange",
+        "size": "M",
+        "in_stock": false,
+        "link": "http://127.0.0.1:65196/p/womens-tech-puffer?color=orange&size=M"
+      }
+    ],
+    "status": "not_available",
+    "reason": "Checked all three Fieldhouse store locations (Downtown, Venice, Pasadena) for the Women's Tech Puffer in orange, size M — the product page lists all three as 'Not in stock' for this exact variant, so no store currently has it available for pickup today."
+  },
+  "success": false,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 1,
+  "false_claim_notes": [
+    "JKT-027-ORG-M stock contradicts the record"
+  ],
+  "correct_refusal": false,
+  "failure_reason": "invented item"
+}

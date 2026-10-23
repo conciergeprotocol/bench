@@ -1,0 +1,74 @@
+{
+  "run_id": "bmvk5ftw8",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-10",
+  "condition": "cap_ref",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T23:05:48.425Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.017019,
+    "usage": {
+      "input_tokens": 12759,
+      "output_tokens": 852,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 25614,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 34,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 3982,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 7225,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 5286,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0343552,
+    "usage": {
+      "input_tokens": 8027,
+      "output_tokens": 1686,
+      "cache_read_input_tokens": 7206,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 3
+  },
+  "total_usd": 0.0513742,
+  "submission": {
+    "status": "not_available",
+    "reason": "Fieldhouse does not have women's orange road running shoes in size 7.5, $120 or less, in stock online. The store carries 15 women's road running shoes in size 7.5 at that price point, but none are available in orange."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

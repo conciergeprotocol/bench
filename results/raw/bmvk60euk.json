@@ -1,0 +1,241 @@
+{
+  "run_id": "bmvk60euk",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-10",
+  "condition": "browser_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T23:22:18.539Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.3937157,
+    "usage": {
+      "input_tokens": 363836,
+      "output_tokens": 3135,
+      "cache_read_input_tokens": 142047,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 55400,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 440,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 5031,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 555,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 601,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 20,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 38,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 11,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 10,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 6,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 553,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 598,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 552,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 580,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 593,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "browser_navigate_back",
+        "ms": 49,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "browser_triple_click",
+        "ms": 1,
+        "error": true
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 8,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 595,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 8,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 2,
+        "error": true
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 557,
+        "error": false
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 6,
+        "error": false
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 2,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 605,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 36,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 591,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 546,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 585,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 610,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.3937157,
+  "submission": {
+    "status": "not_available",
+    "reason": "Women's orange road running shoes in size 7.5 priced at $120 or less are not currently in stock online. The only matching product is the Women's Atlas Glide 4 in orange for $109, but size 7.5 of this model is sold out online (though available for in-store pickup at the Downtown location)."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

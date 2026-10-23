@@ -1,0 +1,101 @@
+{
+  "run_id": "bmvk55pbo",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-01",
+  "condition": "browser_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T22:57:49.290Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.083682,
+    "usage": {
+      "input_tokens": 30903,
+      "output_tokens": 800,
+      "cache_read_input_tokens": 69380,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 18852,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 1219,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 7,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 44,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 7,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 6,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 5035,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 547,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 43,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 12,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.083682,
+  "submission": {
+    "status": "found",
+    "values": {
+      "material": "engineered mesh"
+    },
+    "items": [
+      {
+        "name": "Men's Beacon Lift",
+        "color": "Gray",
+        "price": 80,
+        "link": "http://127.0.0.1:50747/p/mens-beacon-lift?color=gray"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

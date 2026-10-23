@@ -1,0 +1,171 @@
+{
+  "run_id": "bmvk5byph",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-09",
+  "condition": "browser_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T23:03:08.812Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.2757326,
+    "usage": {
+      "input_tokens": 248379,
+      "output_tokens": 2735,
+      "cache_read_input_tokens": 136786,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 46328,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 500,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 6,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 6,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 6,
+        "error": true
+      },
+      {
+        "name": "browser_find",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 8,
+        "error": true
+      },
+      {
+        "name": "browser_type",
+        "ms": 34,
+        "error": false
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 67,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 21,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 5011,
+        "error": true
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 514,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 593,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 17,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 559,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 11,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 596,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 592,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 18,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 48,
+        "error": false
+      },
+      {
+        "name": "browser_network_requests",
+        "ms": 5,
+        "error": false
+      },
+      {
+        "name": "browser_network_request",
+        "ms": 7,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.2757326,
+  "submission": {
+    "status": "not_available",
+    "reason": "According to the Fieldhouse website, the Women's Tech Puffer in orange, size M is in stock online but is not in stock at any of the three physical stores. The store availability table shows: Downtown - Not in stock, Venice - Not in stock, Pasadena - Not in stock."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

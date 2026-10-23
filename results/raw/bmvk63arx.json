@@ -1,0 +1,168 @@
+{
+  "run_id": "bmvk63arx",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-08",
+  "condition": "fetch_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:24:15.904Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.158837,
+    "usage": {
+      "input_tokens": 143972,
+      "output_tokens": 2973,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 37911,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 361,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 360,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 322,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 356,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 376,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 339,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 331,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 350,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 333,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 335,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 27,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 354,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 362,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 364,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 365,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 331,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 358,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 363,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 352,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 337,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.158837,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Atlas Glide 4",
+        "color": "red",
+        "size": "8",
+        "price": 109,
+        "in_stock": true,
+        "link": "http://127.0.0.1:53708/p/womens-atlas-glide-4?color=red&size=8"
+      },
+      {
+        "name": "Women's Essential Puffer",
+        "color": "charcoal",
+        "size": "L",
+        "price": 220,
+        "in_stock": true,
+        "link": "http://127.0.0.1:53708/p/womens-essential-puffer?color=charcoal&size=L"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 9,
+  "fields_total": 9,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

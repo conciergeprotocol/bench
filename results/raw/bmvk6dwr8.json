@@ -1,0 +1,104 @@
+{
+  "run_id": "bmvk6dwr8",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-04",
+  "condition": "fetch_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:32:13.875Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.065186,
+    "usage": {
+      "input_tokens": 58491,
+      "output_tokens": 1339,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 20866,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 361,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 357,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 354,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 362,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 361,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 354,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 353,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 353,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 25,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 346,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 28,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.065186,
+  "submission": {
+    "status": "found",
+    "values": {
+      "delivery_cost": 5.95,
+      "delivery_days_max": 3
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 3,
+  "fields_total": 3,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

@@ -1,0 +1,83 @@
+{
+  "run_id": "bmvk59l2f",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-01",
+  "condition": "browser_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T23:00:48.758Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.026729799999999998,
+    "usage": {
+      "input_tokens": 18941,
+      "output_tokens": 716,
+      "cache_read_input_tokens": 42088,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 17239,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 1086,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 6,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 5033,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 554,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 579,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.026729799999999998,
+  "submission": {
+    "status": "found",
+    "values": {
+      "returnable": false
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

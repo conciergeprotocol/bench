@@ -1,0 +1,121 @@
+{
+  "run_id": "bmvk261tb",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "CQ-02",
+  "condition": "fetch_clean",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T21:34:12.025Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.1109,
+    "usage": {
+      "input_tokens": 18908,
+      "output_tokens": 1668,
+      "cache_read_input_tokens": 9540,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 23928,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 564,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 372,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 360,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 415,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 340,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 342,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 348,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 355,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 341,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 343,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.1109,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Men's Weekend Fleece Jogger",
+        "color": "sand",
+        "size": "XL",
+        "price": 70,
+        "in_stock": true,
+        "link": "http://127.0.0.1:56819/p/mens-weekend-fleece-jogger?color=sand&size=XL"
+      },
+      {
+        "name": "Women's Lightweight Fleece Jogger",
+        "color": "sand",
+        "size": "XL",
+        "price": 60,
+        "in_stock": true,
+        "link": "http://127.0.0.1:56819/p/womens-lightweight-fleece-jogger?color=sand&size=XL"
+      },
+      {
+        "name": "Men's Weekend Sweatpant",
+        "color": "sand",
+        "size": "XL",
+        "price": 80,
+        "in_stock": true,
+        "link": "http://127.0.0.1:56819/p/mens-weekend-sweatpant?color=sand&size=XL"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 13,
+  "fields_total": 13,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

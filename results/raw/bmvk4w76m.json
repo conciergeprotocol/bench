@@ -1,0 +1,106 @@
+{
+  "run_id": "bmvk4w76m",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-09",
+  "condition": "browser_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T22:50:32.008Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.14933120000000003,
+    "usage": {
+      "input_tokens": 58935,
+      "output_tokens": 1481,
+      "cache_read_input_tokens": 83256,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 25036,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 526,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 11,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 8,
+        "error": true
+      },
+      {
+        "name": "browser_type",
+        "ms": 4,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 551,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 597,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 21,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 56,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 49,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.14933120000000003,
+  "submission": {
+    "status": "not_available",
+    "reason": "Fieldhouse does not carry a product called \"Men's Orbit Glide 6.\" Searching the site for \"Orbit Glide 6\" and \"Orbit\" returns no such item — the only Orbit-line shoes are \"Men's Orbit Scramble\" and \"Men's Orbit Trek\" (and their women's counterparts), and the Glide-line shoes are named Atlas Glide 4, Flux Glide 3, Ridge Glide 4, and Juniper Glide. No \"Orbit Glide 6\" product exists, so its heel-to-toe drop cannot be provided."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

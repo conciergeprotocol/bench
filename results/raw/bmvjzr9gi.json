@@ -1,0 +1,79 @@
+{
+  "run_id": "bmvjzr9gi",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-03",
+  "condition": "fetch_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T20:26:28.965Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.042786,
+    "usage": {
+      "input_tokens": 7799,
+      "output_tokens": 500,
+      "cache_read_input_tokens": 7950,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 10260,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 388,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 375,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 371,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 361,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.042786,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Men's Atlas Trainer",
+        "color": "purple",
+        "size": "10",
+        "link": "http://127.0.0.1:65122/p/mens-atlas-trainer?color=purple&size=10"
+      }
+    ],
+    "values": {
+      "in_stock_at_store": false,
+      "stores_in_stock": [
+        "Downtown"
+      ]
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

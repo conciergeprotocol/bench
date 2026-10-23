@@ -1,0 +1,115 @@
+{
+  "run_id": "bmvjypqgn",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-10",
+  "condition": "fetch_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T19:57:33.563Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.205638,
+    "usage": {
+      "input_tokens": 44099,
+      "output_tokens": 1319,
+      "cache_read_input_tokens": 14310,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 25676,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 390,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 373,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 367,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 376,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 344,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 346,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 348,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 25,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 26,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 25,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 25,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.205638,
+  "submission": {
+    "status": "not_available",
+    "reason": "The Men's Ridge Puffer in charcoal ($115) is sold out online in every size (S, M, L, XL), according to the site's variant availability data. The page says the color is \"In stock\", but that is only the store pickup stock: all sizes are in stock at the Downtown store, and size M is also in stock at the Venice store.",
+    "items": [
+      {
+        "name": "Men's Ridge Puffer",
+        "color": "charcoal",
+        "price": 115,
+        "in_stock": false,
+        "link": "http://127.0.0.1:62069/p/mens-ridge-puffer?color=charcoal"
+      }
+    ],
+    "values": {
+      "in_stock_online": false
+    }
+  },
+  "success": false,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 1,
+  "false_claim_notes": [
+    "JKT-033 stock needs a size"
+  ],
+  "correct_refusal": false,
+  "failure_reason": "invented item"
+}

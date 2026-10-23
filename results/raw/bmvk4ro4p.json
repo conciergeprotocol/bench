@@ -1,0 +1,64 @@
+{
+  "run_id": "bmvk4ro4p",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-09",
+  "condition": "cap_ref",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T22:46:44.534Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.007215399999999999,
+    "usage": {
+      "input_tokens": 982,
+      "output_tokens": 407,
+      "cache_read_input_tokens": 5907,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 8942,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 34,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 3071,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0059223999999999995,
+    "usage": {
+      "input_tokens": 1701,
+      "output_tokens": 204,
+      "cache_read_input_tokens": 2402,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 1
+  },
+  "total_usd": 0.013137799999999998,
+  "submission": {
+    "status": "not_available",
+    "reason": "Fieldhouse's catalog does not include a \"Men's Orbit Glide 6\" shoe. The store's own assistant confirmed no such product exists; the closest Orbit-named men's shoes are the Orbit Trek and Orbit Scramble, which are different models."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

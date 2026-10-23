@@ -1,0 +1,126 @@
+{
+  "run_id": "bmvk0el94",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "CQ-06",
+  "condition": "browser_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T20:45:09.864Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.250984,
+    "usage": {
+      "input_tokens": 45181,
+      "output_tokens": 2826,
+      "cache_read_input_tokens": 68700,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 42857,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 551,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 18,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 65,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 513,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 513,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 1032,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 65,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 508,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 1024,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 1118,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 1028,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.250984,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Heavyweight Tee",
+        "color": "Gray",
+        "size": "S",
+        "price": 14,
+        "in_stock": true,
+        "link": "http://127.0.0.1:50593/p/womens-heavyweight-tee?color=gray&size=S"
+      },
+      {
+        "name": "Tempo Pocket Tee",
+        "color": "Sand",
+        "size": "S",
+        "price": 14,
+        "in_stock": true,
+        "link": "http://127.0.0.1:50593/p/tempo-pocket-tee?color=sand&size=S"
+      },
+      {
+        "name": "Tempo Pocket Tee",
+        "color": "Orange",
+        "size": "S",
+        "price": 14,
+        "in_stock": true,
+        "link": "http://127.0.0.1:50593/p/tempo-pocket-tee?color=orange&size=S"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 5,
+  "fields_total": 5,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

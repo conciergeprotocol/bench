@@ -1,0 +1,109 @@
+{
+  "run_id": "bmvk1ecrz",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-02",
+  "condition": "browser_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T21:12:37.607Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.182088,
+    "usage": {
+      "input_tokens": 38072,
+      "output_tokens": 803,
+      "cache_read_input_tokens": 68700,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 22018,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 516,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 67,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 23,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 53,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 29,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 50,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 514,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.182088,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Tempo Pocket Tee",
+        "color": "Sand",
+        "size": "XXL",
+        "price": 14,
+        "in_stock": true,
+        "link": "http://127.0.0.1:53699/p/tempo-pocket-tee?color=sand&size=XXL"
+      }
+    ],
+    "values": {
+      "in_stock_at_store": true,
+      "in_stock_online": false,
+      "stores_in_stock": [
+        "Pasadena"
+      ]
+    }
+  },
+  "success": false,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 1,
+  "false_claim_notes": [
+    "TEE-059-SND-XXL stock contradicts the record"
+  ],
+  "correct_refusal": false,
+  "failure_reason": "wrong fact"
+}

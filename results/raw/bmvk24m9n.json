@@ -1,0 +1,64 @@
+{
+  "run_id": "bmvk24m9n",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-09",
+  "condition": "cap_ref",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T21:32:51.379Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.0213934,
+    "usage": {
+      "input_tokens": 942,
+      "output_tokens": 368,
+      "cache_read_input_tokens": 3802,
+      "cache_creation_input_tokens": 1901
+    },
+    "wall_ms": 10511,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 37,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 4109,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0110767,
+    "usage": {
+      "input_tokens": 2122,
+      "output_tokens": 359,
+      "cache_read_input_tokens": 1201,
+      "cache_creation_input_tokens": 1201
+    },
+    "calls": 1
+  },
+  "total_usd": 0.0324701,
+  "submission": {
+    "status": "not_available",
+    "reason": "The Tempo Short in green ($55) is out of stock online in every size (XS, S, M, L). Sizes S, M and L are in stock only in-store at Pasadena. A different product, the Women's Tempo Run Short, is in stock online in green, but it is not the item requested."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

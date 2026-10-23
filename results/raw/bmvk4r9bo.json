@@ -1,0 +1,93 @@
+{
+  "run_id": "bmvk4r9bo",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-01",
+  "condition": "browser_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T22:46:35.258Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.034271,
+    "usage": {
+      "input_tokens": 24920,
+      "output_tokens": 818,
+      "cache_read_input_tokens": 52610,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 18791,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 497,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 5,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 5037,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 545,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 608,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 22,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 589,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.034271,
+  "submission": {
+    "status": "found",
+    "values": {
+      "material": "engineered mesh"
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

@@ -1,0 +1,152 @@
+{
+  "run_id": "bmvk0xuh1",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-08",
+  "condition": "browser_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T21:00:04.531Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.30974,
+    "usage": {
+      "input_tokens": 65831,
+      "output_tokens": 1359,
+      "cache_read_input_tokens": 96180,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 39178,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 504,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 10,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 18,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 568,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 61,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 22,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 60,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 26,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 34,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 514,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 52,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 508,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 55,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 5,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 575,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 596,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 508,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.30974,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Ridge Glide 4",
+        "color": "White",
+        "size": "10.5",
+        "price": 160,
+        "in_stock": true,
+        "link": "http://127.0.0.1:52212/p/womens-ridge-glide-4?color=white&size=10.5"
+      }
+    ],
+    "values": {
+      "stores_in_stock": [
+        "Venice"
+      ],
+      "delivery_cost": 19.95,
+      "in_stock_online": true
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 3,
+  "fields_total": 3,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

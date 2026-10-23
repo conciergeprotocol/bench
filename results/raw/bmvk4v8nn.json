@@ -1,0 +1,68 @@
+{
+  "run_id": "bmvk4v8nn",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-01",
+  "condition": "cap_ref",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T22:49:30.992Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.0074854,
+    "usage": {
+      "input_tokens": 977,
+      "output_tokens": 435,
+      "cache_read_input_tokens": 5907,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 8828,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 33,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 3006,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0045864,
+    "usage": {
+      "input_tokens": 1063,
+      "output_tokens": 198,
+      "cache_read_input_tokens": 2402,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 1
+  },
+  "total_usd": 0.0120718,
+  "submission": {
+    "status": "found",
+    "values": {
+      "returnable": false,
+      "return_window_days": 30
+    },
+    "reason": "Fieldhouse's return policy allows returns within 30 days of delivery, but footwear must be unworn. Since you've run in the Women's Vista Road twice, they are considered worn and are not eligible for return or exchange, even though you're within the 10-day/30-day window."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

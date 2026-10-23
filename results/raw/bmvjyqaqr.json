@@ -1,0 +1,129 @@
+{
+  "run_id": "bmvjyqaqr",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "CQ-08",
+  "condition": "fetch_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T19:58:05.510Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.342092,
+    "usage": {
+      "input_tokens": 74708,
+      "output_tokens": 2004,
+      "cache_read_input_tokens": 15900,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 31305,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 607,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 416,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 26,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 24,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 17,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 25,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 24,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 389,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 343,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 8,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 357,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 347,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 26,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.342092,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Club Tee",
+        "color": "Purple",
+        "size": "XS",
+        "price": 19,
+        "in_stock": true,
+        "link": "http://127.0.0.1:62114/p/club-tee?color=purple&size=XS"
+      }
+    ],
+    "values": {
+      "in_stock_online": true,
+      "in_stock_at_store": true
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 5,
+  "fields_total": 5,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

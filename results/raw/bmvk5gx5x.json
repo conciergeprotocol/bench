@@ -1,0 +1,80 @@
+{
+  "run_id": "bmvk5gx5x",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-01",
+  "condition": "fetch_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:06:24.967Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.02933,
+    "usage": {
+      "input_tokens": 10721,
+      "output_tokens": 623,
+      "cache_read_input_tokens": 8290,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 10962,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 551,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 372,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 377,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 340,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 393,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.02933,
+  "submission": {
+    "items": [
+      {
+        "name": "Men's Beacon Lift",
+        "material": "engineered mesh",
+        "link": "http://127.0.0.1:51864/p/mens-beacon-lift?color=gray"
+      }
+    ],
+    "status": "found",
+    "values": {
+      "material": "engineered mesh"
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

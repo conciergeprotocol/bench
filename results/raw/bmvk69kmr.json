@@ -1,0 +1,115 @@
+{
+  "run_id": "bmvk69kmr",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-01",
+  "condition": "fetch_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T23:28:50.658Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.05948,
+    "usage": {
+      "input_tokens": 52300,
+      "output_tokens": 1436,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 19747,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 545,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 369,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 367,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 315,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 335,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 352,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 352,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 353,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 26,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 373,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.05948,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Men's Orbit Trek",
+        "color": "black",
+        "size": "8",
+        "price": 99,
+        "in_stock": true,
+        "link": "http://127.0.0.1:54234/p/mens-orbit-trek?color=black&size=8"
+      },
+      {
+        "name": "Men's Sable Trail 2",
+        "color": "black",
+        "size": "8",
+        "price": 155,
+        "in_stock": true,
+        "link": "http://127.0.0.1:54234/p/mens-sable-trail-2?color=black&size=8"
+      }
+    ]
+  },
+  "success": false,
+  "field_accuracy": 1,
+  "fields_correct": 5,
+  "fields_total": 5,
+  "false_claims": 1,
+  "false_claim_notes": [
+    "TRL-015-BLK-080 was not asked for"
+  ],
+  "correct_refusal": false,
+  "failure_reason": "wrong fact"
+}

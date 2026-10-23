@@ -1,0 +1,89 @@
+{
+  "run_id": "bmvk2qsm2",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-01",
+  "condition": "fetch_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T21:50:10.244Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.071152,
+    "usage": {
+      "input_tokens": 14021,
+      "output_tokens": 658,
+      "cache_read_input_tokens": 9540,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 14515,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 392,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 27,
+        "error": true
+      },
+      {
+        "name": "fetch",
+        "ms": 390,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 407,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 26,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 425,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 395,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.071152,
+  "submission": {
+    "status": "found",
+    "values": {
+      "returnable": false,
+      "return_window_days": 30
+    },
+    "items": [
+      {
+        "name": "Women's Vista Road"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

@@ -1,0 +1,69 @@
+{
+  "run_id": "bmvk4rv8e",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-05",
+  "condition": "browser_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T22:46:54.376Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.022152,
+    "usage": {
+      "input_tokens": 4877,
+      "output_tokens": 546,
+      "cache_read_input_tokens": 34690,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 9518,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 461,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 49,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.022152,
+  "submission": {
+    "status": "found",
+    "values": {
+      "returnable": false
+    },
+    "reason": "Fieldhouse's return policy states socks can be returned only if unopened. Since the Graphic Run Sock was opened and tried on, it is not eligible for return, even though it's within the 30-day return window (12 days since delivery)."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

@@ -1,0 +1,166 @@
+{
+  "run_id": "bmvk6fmbl",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-10",
+  "condition": "browser_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T23:33:48.484Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.31315040000000005,
+    "usage": {
+      "input_tokens": 135367,
+      "output_tokens": 2299,
+      "cache_read_input_tokens": 97132,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 35815,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 517,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 18,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 6,
+        "error": true
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 52,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 21,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 6,
+        "error": true
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 3,
+        "error": true
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 3,
+        "error": true
+      },
+      {
+        "name": "browser_type",
+        "ms": 3,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 3,
+        "error": true
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 42,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 12,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 11,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 5,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 5008,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 547,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 549,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 597,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 33,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 584,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 49,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.31315040000000005,
+  "submission": {
+    "status": "not_available",
+    "reason": "I searched Fieldhouse's road running shoes filtered by Women's gender, Orange color, size 7.5, max price $120, and \"in stock online\". No products matched. The only orange women's road running shoe under $120 is the Women's Atlas Glide 4 (Sale $109, orange), but its size 7.5 is listed as \"Sold out\" on the product page. No other women's orange road running shoe meets the price/size/stock criteria."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

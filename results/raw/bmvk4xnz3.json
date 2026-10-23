@@ -1,0 +1,206 @@
+{
+  "run_id": "bmvk4xnz3",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-09",
+  "condition": "browser_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T22:52:04.915Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.5566373,
+    "usage": {
+      "input_tokens": 523756,
+      "output_tokens": 3104,
+      "cache_read_input_tokens": 173613,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 49528,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 491,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 4,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 7,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 5017,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 551,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 20,
+        "error": false
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 55,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 22,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 6,
+        "error": true
+      },
+      {
+        "name": "browser_find",
+        "ms": 20,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 57,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 10,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 45,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 21,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 52,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 20,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 26,
+        "error": false
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 43,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 28,
+        "error": false
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 48,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 23,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 29,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 34,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 27,
+        "error": false
+      },
+      {
+        "name": "browser_press_key",
+        "ms": 51,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 42,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 11,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 52,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 18,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.5566373,
+  "submission": {
+    "status": "not_available",
+    "reason": "The Men's Orbit Glide 6 product does not exist in the Fieldhouse store inventory. Comprehensive searches and category browsing found only Orbit Scramble and Orbit Trek models, but no Orbit Glide 6. A direct URL attempt returned a 404 error."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

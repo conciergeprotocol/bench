@@ -1,0 +1,78 @@
+{
+  "run_id": "bmvk5ac8i",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-09",
+  "condition": "fetch_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T23:01:19.176Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.035783,
+    "usage": {
+      "input_tokens": 11540,
+      "output_tokens": 690,
+      "cache_read_input_tokens": 8290,
+      "cache_creation_input_tokens": 1658
+    },
+    "wall_ms": 12242,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 416,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 371,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 357,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 383,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 386,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.035783,
+  "submission": {
+    "items": [
+      {
+        "name": "Women's Tech Puffer",
+        "color": "orange",
+        "size": "M"
+      }
+    ],
+    "status": "not_available",
+    "reason": "Checked the Women's Tech Puffer (orange, size M) pickup availability at all three Fieldhouse stores (Downtown, Venice, Pasadena) — each is listed as 'Not in stock', so there is no store with this item in stock today."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

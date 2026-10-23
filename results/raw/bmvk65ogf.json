@@ -1,0 +1,66 @@
+{
+  "run_id": "bmvk65ogf",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-01",
+  "condition": "fetch_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T23:25:36.340Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.0095208,
+    "usage": {
+      "input_tokens": 1498,
+      "output_tokens": 553,
+      "cache_read_input_tokens": 4974,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 7249,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 389,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 25,
+        "error": true
+      },
+      {
+        "name": "fetch",
+        "ms": 336,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.0095208,
+  "submission": {
+    "items": [
+      {
+        "name": "Women's Vista Road"
+      }
+    ],
+    "status": "not_available",
+    "reason": "Fieldhouse's return policy requires footwear to be unworn to be eligible for return (\"Footwear must be unworn. Worn shoes cannot be returned.\"). Since the Vista Road shoes have been run in twice, they are considered worn and are not eligible for return, even though you are still within the 30-day return window from delivery."
+  },
+  "success": false,
+  "field_accuracy": 0,
+  "fields_correct": 0,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": "refused wrongly"
+}

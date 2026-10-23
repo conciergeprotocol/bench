@@ -1,0 +1,146 @@
+{
+  "run_id": "bmvjyslot",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-04",
+  "condition": "fetch_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T19:59:53.427Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.245674,
+    "usage": {
+      "input_tokens": 51248,
+      "output_tokens": 1891,
+      "cache_read_input_tokens": 14310,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 31714,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 560,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 370,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 402,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 370,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 339,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 340,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 345,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 344,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 27,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 21,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 23,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 18,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 10,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 10,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 8,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 473,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.245674,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Men's Heavyweight Jogger",
+        "color": "gray",
+        "size": "XL",
+        "price": 49,
+        "in_stock": true,
+        "link": "http://127.0.0.1:62297/p/mens-heavyweight-jogger?color=gray&size=XL"
+      },
+      {
+        "name": "Women's Core Jogger",
+        "color": "gray",
+        "size": "XL",
+        "price": 44,
+        "in_stock": true,
+        "link": "http://127.0.0.1:62297/p/womens-core-jogger?color=gray&size=XL"
+      }
+    ],
+    "values": {
+      "in_stock_online": true
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 5,
+  "fields_total": 5,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

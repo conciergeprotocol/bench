@@ -1,0 +1,141 @@
+{
+  "run_id": "bmvk0dbd2",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-08",
+  "condition": "browser_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T20:44:04.935Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.376854,
+    "usage": {
+      "input_tokens": 82175,
+      "output_tokens": 1652,
+      "cache_read_input_tokens": 75570,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 37450,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 384,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 9,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 564,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 52,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 20,
+        "error": false
+      },
+      {
+        "name": "browser_fill_form",
+        "ms": 39,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 584,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 17,
+        "error": false
+      },
+      {
+        "name": "browser_evaluate",
+        "ms": 1031,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 46,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 5,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 56,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 5,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 59,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 6,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.376854,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Atlas Glide 4",
+        "color": "Red",
+        "size": "8",
+        "price": 109,
+        "in_stock": true,
+        "link": "http://127.0.0.1:50444/p/womens-atlas-glide-4?color=red&size=8"
+      },
+      {
+        "name": "Men's Heavyweight Jacket",
+        "color": "Charcoal",
+        "size": "L",
+        "price": 215,
+        "in_stock": true,
+        "link": "http://127.0.0.1:50444/p/mens-heavyweight-jacket?color=charcoal&size=L"
+      }
+    ],
+    "values": {
+      "in_stock_online": true
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 9,
+  "fields_total": 9,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

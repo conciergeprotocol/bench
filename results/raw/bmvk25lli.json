@@ -1,0 +1,111 @@
+{
+  "run_id": "bmvk25lli",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "CQ-09",
+  "condition": "browser_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T21:33:47.344Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.32334,
+    "usage": {
+      "input_tokens": 71260,
+      "output_tokens": 1228,
+      "cache_read_input_tokens": 68700,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 20638,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 508,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 6,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 572,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 52,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 20,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 46,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 24,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 42,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 58,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 12,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 49,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 6,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.32334,
+  "submission": {
+    "status": "not_available",
+    "reason": "Only two women's lifestyle sneakers come in gray: Women's Lumen Low ($80) and Women's Vista Low ($120). Both are in stock online in gray, size 8, but the Pasadena store lists both as \"Not in stock\". Women's Summit Court in charcoal ($105) is also not in stock at Pasadena in size 8. No pair meets all the conditions."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

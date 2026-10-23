@@ -1,0 +1,64 @@
+{
+  "run_id": "bmvjwp9wo",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "FP-03",
+  "condition": "fetch_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T19:00:52.574Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.02371,
+    "usage": {
+      "input_tokens": 4014,
+      "output_tokens": 335,
+      "cache_read_input_tokens": 4770,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 5350,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 425,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 382,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.02371,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Graphic Pullover Hoodie",
+        "link": "http://127.0.0.1:56325/p/womens-graphic-pullover-hoodie?color=gray"
+      }
+    ],
+    "values": {
+      "material": "80% cotton, 20% polyester"
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

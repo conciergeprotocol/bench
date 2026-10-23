@@ -1,0 +1,96 @@
+{
+  "run_id": "bmvk0fyxb",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "CQ-09",
+  "condition": "fetch_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T20:45:52.713Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.081018,
+    "usage": {
+      "input_tokens": 13787,
+      "output_tokens": 1214,
+      "cache_read_input_tokens": 7950,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 21006,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 690,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 410,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 410,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 397,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 395,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 583,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 458,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 351,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 359,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 360,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.081018,
+  "submission": {
+    "status": "not_available",
+    "reason": "No women's gray lifestyle sneaker in size 8 at $140 or less is in stock both online and at the Pasadena store. Women's Lumen Low in Gray ($80) and Women's Vista Low in Gray ($120) can both be ordered online in size 8, but Pasadena lists both as \"Not in stock\". Women's Summit Court in Charcoal ($105), a dark gray, is also not in stock at Pasadena in size 8. No other women's lifestyle sneaker comes in a gray color."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

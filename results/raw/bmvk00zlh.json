@@ -1,0 +1,96 @@
+{
+  "run_id": "bmvk00zlh",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-09",
+  "condition": "browser_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T20:34:07.914Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.178982,
+    "usage": {
+      "input_tokens": 36456,
+      "output_tokens": 1177,
+      "cache_read_input_tokens": 48090,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 15579,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 496,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 17,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 55,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 5,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 51,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 39,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 51,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 6,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.178982,
+  "submission": {
+    "status": "not_available",
+    "reason": "Only 4 jackets come in charcoal, and none meets all the requirements. Men's Ridge Puffer ($115, no logos) and Women's Trail Jacket ($195, no logos) are both sold out online in charcoal size M. Men's Heavyweight Jacket is in stock in charcoal M but costs $215, which is over $210. Women's Essential Puffer costs $220, also over budget."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

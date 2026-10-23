@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img">
+<title>Cost per success</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+  text { font-family: ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif; fill: #1c1917; }
+  .title { font-size: 16px; font-weight: 650; }
+  .sub { font-size: 12px; fill: #57534e; }
+  .tick { font-size: 11px; fill: #44403c; }
+  .value { font-size: 11px; fill: #1c1917; }
+  .note { font-size: 11px; fill: #57534e; }
+</style>
+<text class="title" x="24" y="28">Cost per success</text>
+<text class="sub" x="24" y="48">Main phase, 50 tasks, 3 runs. Visitor plus concierge, list prices.</text>
+<line x1="56" y1="296" x2="696" y2="296" stroke="#e7e5e4"/>
+<text class="tick" x="48" y="300" text-anchor="end">$0.00</text>
+<line x1="56" y1="241.5" x2="696" y2="241.5" stroke="#e7e5e4"/>
+<text class="tick" x="48" y="245.5" text-anchor="end">$0.08</text>
+<line x1="56" y1="187" x2="696" y2="187" stroke="#e7e5e4"/>
+<text class="tick" x="48" y="191" text-anchor="end">$0.16</text>
+<line x1="56" y1="132.5" x2="696" y2="132.5" stroke="#e7e5e4"/>
+<text class="tick" x="48" y="136.5" text-anchor="end">$0.24</text>
+<line x1="56" y1="78" x2="696" y2="78" stroke="#e7e5e4"/>
+<text class="tick" x="48" y="82" text-anchor="end">$0.32</text>
+
+<rect x="320" y="271.06625" width="25" height="24.933749999999975" fill="#1d4e89"/>
+<rect x="348" y="241.840625" width="25" height="54.15937500000001" fill="#8d99a6"/>
+<rect x="376" y="181.14125" width="25" height="114.85874999999999" fill="#c47b3a"/>
+<rect x="404" y="127.04999999999998" width="25" height="168.95000000000002" fill="#8c3a4b"/>
+<text class="tick" x="376" y="324" text-anchor="middle">All tasks</text>
+
+<rect x="24" y="342" width="12" height="12" rx="2" fill="#1d4e89"/>
+<text class="tick" x="42" y="353">CAP</text>
+<rect x="174" y="342" width="12" height="12" rx="2" fill="#8d99a6"/>
+<text class="tick" x="192" y="353">Fetch, clean</text>
+<rect x="324" y="342" width="12" height="12" rx="2" fill="#c47b3a"/>
+<text class="tick" x="342" y="353">Fetch, realistic</text>
+<rect x="474" y="342" width="12" height="12" rx="2" fill="#8c3a4b"/>
+<text class="tick" x="492" y="353">Browser</text>
+</svg>

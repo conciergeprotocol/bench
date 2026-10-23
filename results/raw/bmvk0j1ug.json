@@ -1,0 +1,75 @@
+{
+  "run_id": "bmvk0j1ug",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-03",
+  "condition": "fetch_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T20:48:05.552Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.031456,
+    "usage": {
+      "input_tokens": 5406,
+      "output_tokens": 428,
+      "cache_read_input_tokens": 6360,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 10100,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 619,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 471,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 8,
+        "error": true
+      },
+      {
+        "name": "fetch",
+        "ms": 386,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.031456,
+  "submission": {
+    "status": "found",
+    "values": {
+      "returnable": false
+    },
+    "items": [
+      {
+        "name": "Men's Ridge Fleece Hoodie",
+        "price": 39,
+        "link": "http://127.0.0.1:50910/p/mens-ridge-fleece-hoodie?color=white"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

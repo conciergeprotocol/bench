@@ -1,0 +1,121 @@
+{
+  "run_id": "bmvjwom06",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-09",
+  "condition": "fetch_real",
+  "rep": 3,
+  "styles": 402,
+  "at": "2026-10-22T19:00:46.563Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.253186,
+    "usage": {
+      "input_tokens": 54676,
+      "output_tokens": 1581,
+      "cache_read_input_tokens": 14310,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 30319,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 413,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 388,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 363,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 360,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 351,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 385,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 351,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 362,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 340,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 26,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 26,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 36,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 12,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 567,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.253186,
+  "submission": {
+    "status": "not_available",
+    "reason": "Fieldhouse has four jackets in charcoal, and all four say \"no logos or graphics.\" None of them meets every requirement for size M: Men's Heavyweight Jacket is in stock online but costs $215, over the $210 limit. Women's Essential Puffer is in stock online but costs $220. Men's Ridge Puffer costs $115 but is sold out online in M. Women's Trail Jacket costs $195 but is sold out online in M. No charcoal jacket in size M is $210 or less and in stock online."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

@@ -1,0 +1,166 @@
+{
+  "run_id": "bmvk57ryb",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-10",
+  "condition": "fetch_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T22:59:54.497Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.260348,
+    "usage": {
+      "input_tokens": 244738,
+      "output_tokens": 3122,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 46670,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 567,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 405,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 394,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 408,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 400,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 411,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 438,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 477,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 388,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 385,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 392,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 394,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 476,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 399,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 476,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 473,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 497,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 444,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 399,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 416,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 390,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 362,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 536,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 430,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.260348,
+  "submission": {
+    "status": "not_available",
+    "reason": "The only women's orange road running shoe available at Fieldhouse is the Women's Atlas Glide 4 (priced at $109, under the $120 budget). However, size 7.5 in orange is sold out online. Size 7.5 is available in-store at the Downtown location, but you requested online availability."
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 1,
+  "fields_total": 1,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": true,
+  "failure_reason": null
+}

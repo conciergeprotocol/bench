@@ -1,0 +1,121 @@
+{
+  "run_id": "bmvjxifmu",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-02",
+  "condition": "fetch_clean",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T19:23:47.611Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.103536,
+    "usage": {
+      "input_tokens": 19732,
+      "output_tokens": 1135,
+      "cache_read_input_tokens": 9540,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 20026,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 372,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 398,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 469,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 854,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 407,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 420,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 415,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 384,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 365,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 369,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.103536,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Vista Runner",
+        "color": "pink",
+        "size": "10.5",
+        "price": 140,
+        "in_stock": true,
+        "link": "http://127.0.0.1:58635/p/womens-vista-runner?color=pink&size=10.5"
+      },
+      {
+        "name": "Women's Mesa Racer 2",
+        "color": "pink",
+        "size": "10.5",
+        "price": 145,
+        "in_stock": true,
+        "link": "http://127.0.0.1:58635/p/womens-mesa-racer-2?color=pink&size=10.5"
+      },
+      {
+        "name": "Women's Terra Runner 5",
+        "color": "pink",
+        "size": "10.5",
+        "price": 160,
+        "in_stock": true,
+        "link": "http://127.0.0.1:58635/p/womens-terra-runner-5?color=pink&size=10.5"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 5,
+  "fields_total": 5,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

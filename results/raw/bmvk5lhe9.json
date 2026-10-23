@@ -1,0 +1,86 @@
+{
+  "run_id": "bmvk5lhe9",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-08",
+  "condition": "cap_ref",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:10:01.832Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.015728100000000002,
+    "usage": {
+      "input_tokens": 1499,
+      "output_tokens": 702,
+      "cache_read_input_tokens": 3938,
+      "cache_creation_input_tokens": 1969
+    },
+    "wall_ms": 15224,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 35,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 3897,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 3727,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0146188,
+    "usage": {
+      "input_tokens": 2674,
+      "output_tokens": 831,
+      "cache_read_input_tokens": 4804,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 2
+  },
+  "total_usd": 0.030346900000000003,
+  "submission": {
+    "items": [
+      {
+        "name": "Women's Atlas Glide 4",
+        "color": "Red",
+        "size": "8",
+        "price": 109,
+        "in_stock": true,
+        "link": "http://127.0.0.1:52227/p/womens-atlas-glide-4?color=red&size=8"
+      },
+      {
+        "name": "Women's Trail Jacket",
+        "color": "Charcoal",
+        "size": "L",
+        "price": 195,
+        "in_stock": true,
+        "link": "http://127.0.0.1:52227/p/womens-trail-jacket?color=charcoal&size=L"
+      }
+    ],
+    "status": "found"
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 9,
+  "fields_total": 9,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

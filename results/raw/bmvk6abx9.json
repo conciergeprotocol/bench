@@ -1,0 +1,73 @@
+{
+  "run_id": "bmvk6abx9",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-04",
+  "condition": "cap_ref",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:29:15.521Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.0063414,
+    "usage": {
+      "input_tokens": 850,
+      "output_tokens": 346,
+      "cache_read_input_tokens": 5907,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 9672,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "cap_discover",
+        "ms": 34,
+        "error": false
+      },
+      {
+        "name": "cap_ask",
+        "ms": 4329,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "model": "claude-sonnet-5",
+    "cost_usd": 0.0115786,
+    "usage": {
+      "input_tokens": 3969,
+      "output_tokens": 292,
+      "cache_read_input_tokens": 3603,
+      "cache_creation_input_tokens": 0
+    },
+    "calls": 1
+  },
+  "total_usd": 0.01792,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Graphic Sweatpant",
+        "price": 65
+      }
+    ],
+    "values": {
+      "delivery_cost": 5.95,
+      "delivery_days_max": 3
+    }
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 3,
+  "fields_total": 3,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

@@ -1,0 +1,91 @@
+{
+  "run_id": "bmvk1o7od",
+  "phase": "main",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "PR-04",
+  "condition": "fetch_clean",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T21:20:09.977Z",
+  "visitor": {
+    "model": "claude-opus-5-5",
+    "effort": "default",
+    "cost_usd": 0.081586,
+    "usage": {
+      "input_tokens": 16255,
+      "output_tokens": 717,
+      "cache_read_input_tokens": 11130,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 14095,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "fetch",
+        "ms": 548,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 386,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 431,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 22,
+        "error": true
+      },
+      {
+        "name": "fetch",
+        "ms": 18,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 396,
+        "error": false
+      },
+      {
+        "name": "fetch",
+        "ms": 385,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.081586,
+  "submission": {
+    "status": "found",
+    "values": {
+      "return_window_days": 30,
+      "returnable": true
+    },
+    "items": [
+      {
+        "name": "Men's Heavyweight Long Sleeve Tee",
+        "price": 35,
+        "link": "http://127.0.0.1:55086/p/mens-heavyweight-long-sleeve-tee?color=purple"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 2,
+  "fields_total": 2,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

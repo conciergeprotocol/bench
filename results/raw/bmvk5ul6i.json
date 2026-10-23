@@ -1,0 +1,132 @@
+{
+  "run_id": "bmvk5ul6i",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "LD-09",
+  "condition": "browser_real",
+  "rep": 2,
+  "styles": 402,
+  "at": "2026-10-22T23:17:13.548Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.2094764,
+    "usage": {
+      "input_tokens": 88765,
+      "output_tokens": 1252,
+      "cache_read_input_tokens": 97132,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 22118,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 444,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 8,
+        "error": true
+      },
+      {
+        "name": "browser_type",
+        "ms": 4,
+        "error": true
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 5,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 562,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 576,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 13,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 49,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 50,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.2094764,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Tech Puffer",
+        "color": "Orange",
+        "size": "M",
+        "price": 155,
+        "in_stock": false,
+        "link": "http://127.0.0.1:53002/p/womens-tech-puffer?color=orange&size=M"
+      }
+    ],
+    "values": {
+      "in_stock_at_store": false,
+      "stores_in_stock": [],
+      "in_stock_online": true
+    }
+  },
+  "success": false,
+  "field_accuracy": 0.5,
+  "fields_correct": 1,
+  "fields_total": 2,
+  "false_claims": 1,
+  "false_claim_notes": [
+    "JKT-027-ORG-M stock contradicts the record"
+  ],
+  "correct_refusal": false,
+  "failure_reason": "invented item"
+}

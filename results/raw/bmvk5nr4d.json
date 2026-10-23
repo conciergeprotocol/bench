@@ -1,0 +1,223 @@
+{
+  "run_id": "bmvk5nr4d",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-08",
+  "condition": "browser_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T23:12:19.354Z",
+  "visitor": {
+    "model": "claude-sonnet-5",
+    "effort": "default",
+    "cost_usd": 0.75199,
+    "usage": {
+      "input_tokens": 347184,
+      "output_tokens": 2987,
+      "cache_read_input_tokens": 138760,
+      "cache_creation_input_tokens": 0
+    },
+    "wall_ms": 46812,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 457,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 7,
+        "error": true
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 57,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 22,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 5,
+        "error": true
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 4,
+        "error": true
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 3,
+        "error": true
+      },
+      {
+        "name": "browser_type",
+        "ms": 3,
+        "error": true
+      },
+      {
+        "name": "browser_click",
+        "ms": 3,
+        "error": true
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 42,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 11,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 10,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 6,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 5009,
+        "error": true
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 563,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 551,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 596,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 18,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 54,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 54,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 34,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 11,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 6,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 552,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 601,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 17,
+        "error": false
+      },
+      {
+        "name": "browser_navigate",
+        "ms": 46,
+        "error": false
+      },
+      {
+        "name": "browser_find",
+        "ms": 17,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.75199,
+  "submission": {
+    "items": [
+      {
+        "name": "Women's Atlas Glide 4",
+        "color": "Red",
+        "size": "8",
+        "price": 109,
+        "in_stock": true,
+        "link": "http://127.0.0.1:52455/p/womens-atlas-glide-4?color=red&size=8"
+      },
+      {
+        "name": "Men's Heavyweight Jacket",
+        "color": "Charcoal",
+        "size": "L",
+        "price": 215,
+        "in_stock": true,
+        "link": "http://127.0.0.1:52455/p/mens-heavyweight-jacket?color=charcoal&size=L"
+      }
+    ],
+    "status": "found"
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 9,
+  "fields_total": 9,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}

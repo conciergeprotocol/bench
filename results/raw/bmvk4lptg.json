@@ -1,0 +1,183 @@
+{
+  "run_id": "bmvk4lptg",
+  "phase": "arm-weak",
+  "commit": "53019efbe3c28abf6f7ca629af97ab75134920f1",
+  "freeze_digest": "8cd72ebfd12b26da65ae2362b0f23c6853a9dfc896059e8b8dade174064b8a17",
+  "task_id": "MC-08",
+  "condition": "browser_real",
+  "rep": 1,
+  "styles": 402,
+  "at": "2026-10-22T22:42:36.178Z",
+  "visitor": {
+    "model": "claude-haiku-4-5-20251001",
+    "effort": "default",
+    "cost_usd": 0.24249015,
+    "usage": {
+      "input_tokens": 212858,
+      "output_tokens": 2612,
+      "cache_read_input_tokens": 99959,
+      "cache_creation_input_tokens": 5261
+    },
+    "wall_ms": 38229,
+    "excluded_ms": 0,
+    "steps": [
+      {
+        "name": "browser_navigate",
+        "ms": 528,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 7,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 567,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 608,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 21,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 40,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 12,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 10,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 556,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 598,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 17,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 599,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 15,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 609,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 19,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 35,
+        "error": false
+      },
+      {
+        "name": "browser_select_option",
+        "ms": 12,
+        "error": false
+      },
+      {
+        "name": "browser_type",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 566,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 590,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 14,
+        "error": false
+      },
+      {
+        "name": "browser_click",
+        "ms": 611,
+        "error": false
+      },
+      {
+        "name": "browser_snapshot",
+        "ms": 16,
+        "error": false
+      },
+      {
+        "name": "submit_answer",
+        "ms": 0
+      }
+    ]
+  },
+  "concierge": {
+    "cost_usd": 0
+  },
+  "total_usd": 0.24249015,
+  "submission": {
+    "status": "found",
+    "items": [
+      {
+        "name": "Women's Canyon Runner",
+        "color": "red",
+        "size": "8",
+        "price": 130,
+        "in_stock": true,
+        "link": "http://127.0.0.1:65074/p/womens-canyon-runner?color=red&size=8"
+      },
+      {
+        "name": "Women's Trail Jacket",
+        "color": "charcoal",
+        "size": "L",
+        "price": 195,
+        "in_stock": true,
+        "link": "http://127.0.0.1:65074/p/womens-trail-jacket?color=charcoal&size=L"
+      }
+    ]
+  },
+  "success": true,
+  "field_accuracy": 1,
+  "fields_correct": 9,
+  "fields_total": 9,
+  "false_claims": 0,
+  "false_claim_notes": [],
+  "correct_refusal": false,
+  "failure_reason": null
+}
